@@ -14,8 +14,8 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 
 
-# Lecture du fichier CSV d'entrée (extrait de la base SolR, via le fichier python solr05.py ou un export SIGB)
-fichier =  'a.csv'
+# Lecture du fichier CSV d'entrée (extrait de la base SolR, via le fichier python solr05.py), ou d'un SIGB
+fichier =  'solr502.csv'
 
 # détermination de la date du jour qui servira à déterminer les dates d'expiration et de retour
 aujourdhui=datetime.date.today()
@@ -573,20 +573,3 @@ envoipdf(cell) # on envoie le dernier sous tableau parcouru à traiter en pdf
 
 
 
-##OH : ouvrir le pdf de Falala du jour dans Adobe Reader 
-def imprfal():
-    contenu=open("impr_fal.bat", "w")
-    comm="\"C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe\" /P "
-    chemin="T:\deconfinement\drive\listes\\"+now+"\\falala"+"-"+now+".pdf"
-    comm+=chemin 
-    print(comm)
-    contenu.write(comm)
-    contenu.close()
-    os.system('impr_fal.bat')
-	
-reponse=input('Voulez-vous imprimer pour Falala ?(y/n)')
-
-if reponse=="y":
-    imprfal()
-else:
-    print('ok')

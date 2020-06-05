@@ -14,8 +14,8 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 
 
-# Lecture du fichier CSV d'entrée (extrait de la base SolR, via le fichier python solr05.py)
-fichier =  'solr502.csv'
+# Lecture du fichier CSV d'entrée (extrait de la base SolR, via le fichier python solr05.py ou un export SIGB)
+fichier =  'a.csv'
 
 # détermination de la date du jour qui servira à déterminer les dates d'expiration et de retour
 aujourdhui=datetime.date.today()

@@ -13,7 +13,7 @@ Ex : pip install operator
 - ligne 18 : renseigner le nom du fichier csv source. Ici : a.csv. A enregistrer dans le même répertoire que le script resalistes-0.1.py
 
 - lignes 32 à 36 : renseigner les paramètres de durée
-  # nb de jours avant expiration + retour selon transit ou non...
+
 expiration=5 # temps de mise à disposition des documents une fois prêtés, en jours
 expirationtransit=8 # temps de mise à disposition des documents une fois prêtés, en jours, en cas de transit
 retour=21 # durée du prêt, en jours
@@ -29,4 +29,7 @@ python.exe resalistes-0.1.py
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-25\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 
-Le script se prête assez facilement à la création d'un exécutable avec la librairie Cx_Freeze pour une génération en un clic.
+Le script se prête assez facilement à la création d'un exécutable avec la librairie Cx_Freeze pour une génération en un clic :
+https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze
+
+

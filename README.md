@@ -29,17 +29,17 @@ Ex : pip install operator
 - lignes 205-206 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate
 
 4e étape : ouvrir une console et lancer les commandes suivantes :
-- cd c:\python38-25 (dossier où est installé Python)
+- cd c:\python38-32 (dossier où est installé Python)
 - python.exe resalistes-0.1.py
 
-Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-25\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
+Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 
 Le script se prête assez facilement à la création d'un exécutable pour Windows avec la librairie Cx_Freeze pour une génération de pdf en un clic :
 https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En console, on exécute le script setup.py fourni :
 - installer cx_freeze : pip install cx_freeze
 - construire l'exécutable : python.exe setup.py build
 
-On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier de build.
+On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build).
 
 NB : concernant la production du csv : il est tout à fait possible de récupérer les données directement sur le serveur solr, à condition d'avoir login/mdp, et d'automatiser l'ensemble du processus.
 

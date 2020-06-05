@@ -15,7 +15,7 @@ from reportlab.lib.units import mm
 
 
 # Lecture du fichier CSV d'entrée (extrait de la base SolR, via le fichier python solr05.py), ou d'un SIGB
-fichier =  'solr502.csv'
+fichier =  'a.csv'
 
 # détermination de la date du jour qui servira à déterminer les dates d'expiration et de retour
 aujourdhui=datetime.date.today()

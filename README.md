@@ -28,8 +28,8 @@ Ex : pip install operator
 - lignes 205-206 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate
 
 4e étape : ouvrir une console et lancer les commandes suivantes :
-cd c:\python38-25 (dossier où est installé Python)
-python.exe resalistes-0.1.py
+- cd c:\python38-25 (dossier où est installé Python)
+- python.exe resalistes-0.1.py
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-25\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 
@@ -40,5 +40,6 @@ https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En co
 
 On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier de build.
 
+NB : concernant la production du csv : il est tout à fait possible de récupérer les données directement sur le serveur solr, à condition d'avoir login/mdp, et d'automatiser l'ensemble du processus.
 
-
+La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script, mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

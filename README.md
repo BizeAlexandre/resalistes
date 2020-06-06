@@ -8,7 +8,7 @@ Le fichier csv source est ici produit non plus depuis un export manuel depuis le
 
 Les fichiers produits pdf ont le même aspect que dans la version "de base" disponible ici : https://github.com/olivierhirsch/resalistes/tree/gh-pages
 
-Le code est mieux commenté ici que dans la version précédente. Pour le faire fonctionner dans une autre bibliothèque, il faut :
+Le code est mieux commenté ici que dans la version précédente. Pour le faire fonctionner ailleurs qu'à la BM de Reims, il faut :
 
 1ère étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip, en console.
 Ex : <code> pip install operator </code>

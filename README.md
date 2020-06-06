@@ -6,7 +6,7 @@ resalistes-0.1.py est un script écrit en Python 3 qui transforme un fichier csv
 Ce programme est destiné à convertir des exports csv de listes de documents réservés à la bibliothèque de Reims en provenance du SIGB Syracuse, pour produire des pdf contenant des listes de commandes. Il doit pouvoir être adapté à d'autres SIGB. Les fichiers pdf en exemple sont produits avec le script resalistes-0.1.py et le fichier minimum d'exemple a.csv. (Données anonymisées)
 Pour le faire fonctionner dans une autre bibliothèque :
 
-1ere étape : construire un filtre d'export dans Syracuse qui reproduise exactement les colonnes du fichier a.csv. Ils sont notés dans profil.png
+1ere étape : construire un profil d'export dans Syracuse qui reproduise exactement les colonnes du fichier a.csv. Ils sont notés dans profil.png
 
 2e étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip, en console.
 Ex : pip install operator 

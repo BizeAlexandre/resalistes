@@ -21,7 +21,7 @@ Ex : <code> pip install operator </code>
 
  <code> expirationtransit=8 </code> # temps de mise à disposition des documents une fois prêtés, en jours, en cas de transit
 
-  <code> retour=21 >/code> # durée du prêt, en jours
+  <code> retour=21 </code> # durée du prêt, en jours
 
   <code> retourtransit=24 </code> # durée du prêt, en jours, s'il y a eu transit
 

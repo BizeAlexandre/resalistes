@@ -45,7 +45,7 @@ Ex : <code> pip install operator </code>
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 
-Pour automatiser complètement la production des listes, et si on dispose d'une machine pouvant faire office de serveur Windows, il est possible d'écrire le fichier batch suivant :
+Pour automatiser complètement la production des listes, et si on dispose d'une machine pouvant faire office de serveur Windows (une machine de bureau jamais éteinte et loggée sur une session disposant des accès serveur nécéssaires suffit), il est possible d'écrire le fichier batch suivant :
 
 <code>
 <div> cd c:\python38-32 </div>

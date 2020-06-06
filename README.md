@@ -15,7 +15,7 @@ Ex : pip install operator
 3e étape : adapter le code
 - ligne 18 : renseigner le nom du fichier csv source. Ici : a.csv. A enregistrer dans le même répertoire que le script resalistes-0.1.py
 
-- lignes 32 à 36 : renseigner les paramètres de durée
+- lignes 29 à 33 : renseigner les paramètres de durée
 
   expiration=5 # temps de mise à disposition des documents une fois prêtés, en jours
 
@@ -25,9 +25,9 @@ Ex : pip install operator
 
   retourtransit=24 # durée du prêt, en jours, s'il y a eu transit
 
-- lignes 55 à 66 : modifier le nom des bibliothèques du réseau : bien mettre les libellés exacts et leur attribuer un code (sans espace)
+- lignes 51 à 60 : modifier le nom des bibliothèques du réseau : bien mettre les libellés exacts et leur attribuer un code (sans espace)
 
-- lignes 205-206 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1)
+- lignes 68-69 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1)
 
 4e étape : ouvrir une console et lancer les commandes suivantes :
 - cd c:\python38-32 (dossier où est installé Python)

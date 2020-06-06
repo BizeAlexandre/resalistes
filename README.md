@@ -6,9 +6,9 @@ Le fichier csv source est ici produit non plus depuis un export manuel depuis le
 (c) Denis Paris - Bibliothèque municipale de Reims - 2020
 
 
-Ce programme est destiné à convertir des exports csv de listes de documents réservés à la bibliothèque de Reims en provenance du SIGB Syracuse, pour produire des pdf contenant des listes de commandes. Les fichiers pdf ont le même aspect que dans la version "de base" disponible ici ! https://github.com/olivierhirsch/resalistes/tree/gh-pages
+Les fichiers produits pdf ont le même aspect que dans la version "de base" disponible ici : https://github.com/olivierhirsch/resalistes/tree/gh-pages
 
-Pour le faire fonctionner dans une autre bibliothèque :
+Le code est mieux commenté ici que dans la version précédente. Pour le faire fonctionner dans une autre bibliothèque, il faut :
 
 1ère étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip, en console.
 Ex : <code> pip install operator </code>

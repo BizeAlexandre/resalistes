@@ -1,25 +1,73 @@
-BIBL_display_store|SECT_display_store|COTA_store|RESD_date|REFA_store|TYPS_store|CBEX_display_store|BIMD_store|ETAT_store|TRDE_store|RESA1NOMEMPR_store|RESA1CBEMPR_store|COTS_display_store|DSIP_store|DRES_date
-MÃ©diathÃ¨que Jean Falala|Falala junior (+ de 8 ans)|BD AOY|2020-05-30T13:33:48Z|"DÃ©tective Conan - 1 : - : / Gosho Aoyama. - Kana, 1997"|Livre|11624625100||En rayon||Mme XXX EloÃ¯se|209539E0051|MANGAS||
-MÃ©diathÃ¨que Jean Falala|Falala magasin junior|BD AGA 9|2020-05-30T21:20:44Z|"Agatha Christie - 9 : L'affaire Protheroe - : / Norma. - EP Ã©ditions, 2005"|Livre|11593115100||En rayon||Mme YYY BERENICE|206437E0051|||
-MÃ©diathÃ¨que Jean Falala|Falala junior (+ de 8 ans)|R HOR|2020-05-30T18:21:56Z|"Le pouvoir des cinq 1 : Raven's gate - : - : / Anthony Horowitz. - Le livre de poche jeunesse, 2009"|Livre|20133075100||En rayon||M. ZZZ PIERRE|182160E0051|||
-MÃ©diathÃ¨que Jean Falala|Falala image son art loisirs|2 RAD 2|2020-05-31T07:48:21Z|"OK computer - : - : / Radiohead, groupe voc. et instr.. - Distrib. EMI, 1997"|Disque compact|"08815515100, 8815515100"||En rayon||Mme LIRR Lilas|108558E0051|||
-MÃ©diathÃ¨que Laon-Zola|Laon-Zola jeunes|398.8 BER|2020-05-30T08:49:14Z|"Sur le dos d'une souris - : - : / CÃ©cile Bergame. - Didier Jeunesse, 2004"|Livre CD|"07855915100, 7855915100"||En rayon||M. AZER Jules|214241E0051|||
-MÃ©diathÃ¨que Laon-Zola|Laon-Zola adultes|R PER|2020-05-30T06:24:14Z|"Les oubliÃ©s du dimanche - : - : / ValÃ©rie Perrin. - Albin Michel, 2015"|Livre|20234995100||En rayon||M. VMFR ARNAUD|177093E0051|||
-MÃ©diathÃ¨que Croix-Rouge|Croix-Rouge jeunes|793 LOM|2020-05-31T17:09:38Z|"En voiture - : - cherche et trouve : / Stephan Lomp. - Milan jeunesse, 2013"|Livre|12535475100||En rayon||M. POIR HUGO|193877E0051|3-5 ans||
-MÃ©diathÃ¨que Jean Falala|Falala junior (+ de 8 ans)|ANT MOR|2020-05-30T18:16:09Z|"Light years - 1 : - roman : / Kass Morgan. - R. Laffont, 2018"|Livre|13232195100||En rayon||M. LOUIS PIERRE|182160E0051|ADOS||
-MÃ©diathÃ¨que Jean Falala|Falala junior (+ de 8 ans)|R MAG|2020-05-30T10:09:49Z|"Je suis en CE2 - 1 : Les nouveaux copains - : / texte de Magdalena. - Flammarion, 2015"|Livre|"03665335100, 3665335100"||En rayon||Mme ROBERT Sidonie|217024E0051|||
-MÃ©diathÃ¨que Jean Falala|Falala sciences et techniques|641.563 TEX|2020-05-31T22:17:25Z|"Mes recettes du bonheur ! - : - mon bien-Ãªtre en cuisine : / Carinne Teyssandier. - La MartiniÃ¨re, 2016"|Livre|20347005100||En rayon||Mme LELIEVRE JEANNE|222719E0051|||
-MÃ©diathÃ¨que Croix-Rouge|Croix-Rouge magasin bus|641.37 ROU|2020-05-31T20:11:49Z|"Les oeufs - : - : / Michel Roux. - GrÃ¼nd, 2005"|Livre|"07631525100, 7631525100"||En rayon||M. FOS CHRISTIAN|192525E0051|||
-MÃ©diathÃ¨que Jean Falala|Falala sciences et techniques|582.16 DOR|2020-06-02T10:10:27Z|"L'intelligence des arbres - : - comment les arbres communiquent et prennent soin les uns des autres : / un film de Julia Dordel et GuidoTÃ¶lke. - Jupiter films, copyright 2018"|DVD|20717405100||En rayon||Mme LAL CELIA|167017E0051|||
-MÃ©diathÃ¨que Jean Falala|Falala adultes littÃ©rature|LV SAL|2020-06-02T09:57:48Z|"Pas pleurer - : - : / Lydie Salvayre. - A vue d'oeil, 2015"|Livre|20171075100||En rayon||Mme MARIE Marie-ThÃ©rÃ¨se|008478E0051|||
-MÃ©diathÃ¨que Laon-Zola|Laon-Zola adultes|914.44 BOU|2020-06-02T05:35:02Z|"Bourgogne - : - 2016 : / Philippe Gloaguen. - Hachette Tourisme, 2016"|Livre|20255705100||En rayon||Mme CORINNE CORINNE|183210E0051|||
-BibliothÃ¨que Saint-Remi|Saint Remi jeunes|613.4 LED|2020-06-02T09:50:17Z|"Au bain - : - : / texte StÃ©phanie Ledu. - Milan jeunesse, 2009"|Livre|10786765100||En rayon||Mme MILA MILA|207521E0051|3-5 ans||
-MÃ©diathÃ¨que Croix-Rouge|Croix-Rouge adultes|POL KIN|2020-06-02T06:57:20Z|"Fin de ronde - : - roman : / Stephen King. - Albin Michel, 2017"|Livre|20492365100||En rayon||Mme ROBER DANIELE|196744E0051|||
-MÃ©diathÃ¨que Croix-Rouge|Croix-Rouge image et son|FA TAU|2020-06-02T10:26:47Z|"Cette sacrÃ©e famille - : - : / Norman Taurog, rÃ©al.. - Warner Home Video, 2012"|DVD|12294055100||En rayon||Mme LIMEF Ingrid|210054E0051|||
-BibliothÃ¨que du Chemin-Vert|Chemin Vert jeunes|R HOR|2020-06-02T08:02:30Z|"L' Ã®le du crÃ¢ne - 1 : - : / traduit de l'anglais par Annick Le Goyat. - Le Livre de poche jeunesse, 2014"|Livre|21220015100||En rayon||M. TRISTAN Tristan|214060E0051|||
-BibliothÃ¨que Carnegie|Carnegie fonds d'Ã©tude magasin|DRBG 54|2020-06-02T09:52:58Z|"La Porte Mars de Reims - : - : / LefÃ¨vre FranÃ§ois. - G.E.A.C.A. (Groupe d'Ã©tudes archÃ©ologiques Champagne-Ardenne), Centre Saint-ExupÃ©ry, 1985"|Livre|"0955555100, 955555100"||En rayon||Mme BEA BEATRICE|053591E0051|||
-MÃ©diathÃ¨que Croix-Rouge|Croix-Rouge jeunes|R STI|2020-06-02T08:51:24Z|"TÃ©a Stilton - 16 : AcadÃ©mie flamenco - : / TÃ©a Stilton. - Albin Michel-Jeunesse, 2013"|Livre|"08155065100, 8155065100"||En rayon||Mme TIN TING  LEA|200832E0051|||
-MÃ©diathÃ¨que Jean Falala|Falala sciences et techniques|616.898 HOL|2020-06-02T09:35:04Z|"Vivre avec le syndrome d'Asperger - : - un handicap invisible au quotidien : / Liane Holliday Willey. - De Boeck, 2010"|Livre|"08138875100, 8138875100"||En rayon||Mme DOM Dominique|210934E0051|||
-BibliothÃ¨que Saint-Remi|Saint Remi jeunes|616 LED|2020-06-02T09:50:37Z|"L'hÃ´pital - : - : / texte StÃ©phanie Ledu. - Milan jeunesse, 2009"|Livre|10253395100||En rayon||Mme MILA MILA|207521E0051|3-5 ans||
-MÃ©diathÃ¨que Croix-Rouge|Croix-Rouge image et son|FA BEI|2020-06-02T09:23:35Z|"37Â°2 le matin - : - l'intÃ©grale : / Jean-Jacques Beineix, rÃ©al., scÃ©n.. - Film Office, 2000"|DVD|"03998725100, 3998725100"||En rayon||M. OLI OLIVIER|084978E0051|||
-MÃ©diathÃ¨que Jean Falala|Falala image son art loisirs|712 WOO|2020-06-02T09:20:47Z|"Jardins urbains de style - : - concevoir et amÃ©nager cours, terrasses et patios : / Stephen Woodhams. - Larousse, 2016"|Livre|20290485100||En rayon||Mme VI Raymonde|199783E0051|||
+Bibliothèque (Libellé);Section (Libellé);Cotes;Réservation - Date de création;Titre;Type de document (Libellé);Code-barres;Réservation - Lieu demandé (Libellé);Etat  (Libellé);Transit - Lieu demandé;Réservation - Nom emprunteur;Réservation - Code-barres emprunteur;Titre : volume;Titre de partie et N° de partie;Titre de série;Tome
+Bibliobus urbain;Bibliobus urbain adultes;R BRO;04/06/2020;Loin de la rivière;Livre;*20601315100*;Médiathèque Jean Falala;En rayon;;Mme XXX Elise;2,08E+56;;1;;
+Médiathèque Laon-Zola;Laon-Zola adultes;FA ALL;04/06/2020;Un jour de pluie à New York;DVD;*14247045100*;Médiathèque Jean Falala;En rayon;;Mme YYY BERENICE;2,26E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge image et son;FA TOL;04/06/2020;Hors normes;DVD;*14247145100*;Médiathèque Jean Falala;En rayon;;M. ZZZ PIERRE;2,10E+56;;;;
+Bibliothèque du Chemin-Vert;Chemin Vert jeunes;A SAN;04/06/2020;Pop et le grand méchant loup;Livre;*21091655100*;Médiathèque Croix-Rouge;En rayon;;Mme LIRR Lilas;1,95E+56;;;;
+Médiathèque Jean Falala;Falala adultes littérature;BD CRI;04/06/2020;Aldobrando;Livre;*21200135100*;Médiathèque Jean Falala;En rayon;;M. AZER Jules;1,98E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge image et son;8 SAU;04/06/2020;Dévorantes;Disque compact;*21180115100*;Médiathèque Jean Falala;En rayon;;M. VMFR ARNAUD;5,99E+55;;;;
+Médiathèque Jean Falala;Falala junior (+ de 8 ans);BD SPI 18;04/06/2020;Le petit spirou;Livre;*21095375100*;Médiathèque Laon-Zola;En rayon;;M. POIR HUGO;2,02E+56;;18 La vérité sur tout !;Le petit Spirou;18
+Médiathèque Jean Falala;Falala image son art loisirs;FA PAR;04/06/2020;Alice et le maire;DVD;*14310555100*;Médiathèque Jean Falala;En rayon;;M. LOUIS PIERRE;1,93E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge jeunes;FJ AI;04/06/2020;A.I.;DVD;*04672735100*;Médiathèque Croix-Rouge;En rayon;;Mme ROBERT Sidonie;2,01E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds d'étude magasin;M 47637;04/06/2020;L'amour demeure;Livre;*0085895100*;Médiathèque Jean Falala;En rayon;;Mme LELIEVRE JEANNE;1,75E+56;;;;
+Médiathèque Jean Falala;Falala image son art loisirs;FA ANT;04/06/2020;L'Avventura;DVD;*04688605100*;Médiathèque Jean Falala;En rayon;;M. FOS CHRISTIAN;2,25E+56;;;;
+Médiathèque Jean Falala;Falala junior (+ de 8 ans);FJ MYF;25/05/2020;My fair Lady;DVD;*04691485100*;Médiathèque Jean Falala;En rayon;;Mme LAL CELIA;2,26E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge jeunes;940.4 WIN;04/06/2020;1914-1918;Livre;*04769245100*;Médiathèque Croix-Rouge;En rayon;;Mme MARIE Marie;2,07E+56;;;;
+Médiathèque Jean Falala;Falala junior (+ de 8 ans);R BRO;04/06/2020;King Kong;Livre;*04781635100*;Médiathèque Jean Falala;En rayon;;Mme CORINNE CORINNE;1,83E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge jeunes;796.4 DES;04/06/2020;L'athlétisme;Livre;*04894175100*;Médiathèque Laon-Zola;En rayon;;Mme MILA MILA;2,00E+56;;;;
+Médiathèque Jean Falala;Falala image son art loisirs;728.3 MIG;04/06/2020;Grammaire des immeubles parisiens;Livre;*04967335100*;Médiathèque Jean Falala;En rayon;;Mme ROBER DANIELE;1,68E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge jeunes;BD YOA;04/06/2020;Toto l'ornithorynque;Livre;*05127775100*;Médiathèque Croix-Rouge;En rayon;;Mme LIMEF Ingrid;2,07E+56;;4 Toto l'ornithorynque et le bruit qui rêve;Toto l'ornithorynque;
+Médiathèque Croix-Rouge;Croix-Rouge jeunes;A POM;04/06/2020;Chico, le clown amoureux;Livre;*05130655100*;Médiathèque Croix-Rouge;En rayon;;M. TRISTAN Tristan;2,07E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 16713;04/06/2020;Premières armes;Livre;*05203635100*;Médiathèque Jean Falala;En rayon;;Mme BEA BEATRICE;4,35E+55;;;;
+Médiathèque Jean Falala;Falala magasin junior;ANT LOW;04/06/2020;Le passeur;Livre;*05230875100*;Médiathèque Jean Falala;En rayon;;Mme TIN TING  LEA;1,96E+56;;;;
+Médiathèque Jean Falala;Falala adultes littérature;894.1 SUB;04/06/2020;Sublimes paroles et idioties de Nasr Eddin;Livre;*05260625100*;Médiathèque Jean Falala;En rayon;;Mme DOM Dominique;1,84E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 17021;04/06/2020;Belgrave Square;Livre;*05267335100*;Médiathèque Jean Falala;En rayon;;Mme MILA MILA;1,72E+56;;;;
+Bibliothèque du Chemin-Vert;Chemin Vert adultes;840 CAM;04/06/2020;L'étranger;Livre;*05346995100*;Médiathèque Jean Falala;En rayon;;M. OLI OLIVIER;2,01E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 15821;04/06/2020;Le tueur des ombres;Livre;*05433445100*;Médiathèque Jean Falala;En rayon;;Mme VI Raymonde;1,38E+56;;;;
+Médiathèque Laon-Zola;Laon-Zola adultes;R DHO;03/06/2020;La tribu Bécaille;Livre;*05558435100*;Médiathèque Laon-Zola;En rayon;;Mme XXX Elise;2,20E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge jeunes;BD YOA;04/06/2020;Toto l'ornithorynque;Livre;*05558685100*;Médiathèque Croix-Rouge;En rayon;;Mme YYY BERENICE;2,07E+56;;5 Toto l'ornithorynque et les soeurs cristallines;Toto l'ornithorynque;5
+Médiathèque Jean Falala;Falala junior (+ de 8 ans);BD CAR 3;04/06/2020;Les carnets de Cerise;Livre;*06071445100*;Médiathèque Jean Falala;En rayon;;M. ZZZ PIERRE;1,59E+56;;3 Le dernier des cinq trésors;Les carnets de Cerise;3
+Médiathèque Jean Falala;Falala magasin benjamin;R GOU;04/06/2020;J'ai vu une fée sur un vélo !;Livre;*06073635100*;Médiathèque Laon-Zola;En rayon;;Mme LIRR Lilas;2,05E+56;;;;
+Médiathèque Jean Falala;Falala magasin benjamin;A PON;04/06/2020;Le doudou méchant;Livre;*06168835100*;Médiathèque Jean Falala;En rayon;;M. AZER Jules;1,99E+56;;;;
+Bibliobus urbain;Bibliobus urbain jeunes;BD MOR;04/06/2020;Lucky Luke;Livre;*06622185100*;Médiathèque Laon-Zola;En rayon;;M. VMFR ARNAUD;1,67E+56;;5 Lucky Luke contre Pat Poker;Lucky Luke...;5
+Bibliothèque du Chemin-Vert;Chemin Vert jeunes;BD AST 8;04/06/2020;Une Aventure d'Astérix;Livre;*06634205100*;Médiathèque Jean Falala;En rayon;;M. POIR HUGO;2,11E+56;;8 Astérix chez les Bretons;;
+Médiathèque Croix-Rouge;Croix-Rouge image et son;FA BOG;04/06/2020;La Dernière séance;DVD;*06678335100*;Médiathèque Croix-Rouge;En rayon;;M. LOUIS PIERRE;2,01E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge image et son;FA FLE;04/06/2020;Soleil vert;DVD;*06709625100*;Médiathèque Laon-Zola;En rayon;;Mme ROBERT Sidonie;2,15E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 19279;04/06/2020;La part du mort;Livre;*06815155100*;Médiathèque Croix-Rouge;En rayon;;Mme LELIEVRE JEANNE;1,97E+56;;;;
+Médiathèque Jean Falala;Falala image son art loisirs;FA GUA;04/06/2020;Amore;DVD;*06935735100*;Médiathèque Jean Falala;En rayon;;M. FOS CHRISTIAN;2,26E+56;;;;
+Médiathèque Jean Falala;Falala image son art loisirs;704.9 IMP;04/06/2020;La nature et ses symboles;Livre;*07224435100*;Médiathèque Jean Falala;En rayon;;Mme LAL CELIA;1,68E+56;;;;
+Médiathèque Laon-Zola;Laon-Zola jeunes;A HUD;04/06/2020;Le gâteau de Ouistiti;Livre CD;*07374455100*;Médiathèque Laon-Zola;En rayon;;Mme MARIE Marie;2,02E+56;;;;
+Médiathèque Laon-Zola;Laon-Zola jeunes;R HOR;04/06/2020;Maudit Graal;Livre;*07572245100*;Médiathèque Laon-Zola;En rayon;;Mme CORINNE CORINNE;2,11E+56;;2;Les aventures de David Eliot;2
+Médiathèque Jean Falala;Falala junior (+ de 8 ans);745.5 HIR;04/06/2020;Initiation à l'origami;Livre;*07577815100*;Médiathèque Jean Falala;En rayon;;Mme MILA MILA;2,17E+56;;;;
+Médiathèque Jean Falala;Falala Benjamin (- de 8 ans);A BAC;04/06/2020;Mon chat le plus bête du monde;Livre;*07611425100*;Médiathèque Croix-Rouge;En rayon;;Mme ROBER DANIELE;2,09E+56;;;;
+Médiathèque Jean Falala;Falala image son art loisirs;779 ATW;04/06/2020;Haïti;Livre;*07664935100*;Médiathèque Jean Falala;En rayon;;Mme LIMEF Ingrid;8,16E+55;;;;
+Médiathèque Jean Falala;Falala adultes littérature;POL JAP;04/06/2020;Piège pour Cendrillon;Livre;*07670805100*;Médiathèque Jean Falala;En rayon;;M. TRISTAN Tristan;2,00E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 20370;04/06/2020;Une femme dans la tourmente;Livre;*07759345100*;Médiathèque Laon-Zola;En rayon;;Mme BEA BEATRICE;1,98E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 19882;04/06/2020;Le crucifié de Farrier's Lane;Livre;*07799155100*;Médiathèque Jean Falala;En rayon;;Mme TIN TING  LEA;1,72E+56;;;;
+Médiathèque Croix-Rouge;Croix-Rouge jeunes;940.3 JAI;04/06/2020;J'ai vécu la Première Guerre mondiale;Livre;*07813715100*;Médiathèque Croix-Rouge;En rayon;;Mme DOM Dominique;2,07E+56;;;;
+Médiathèque Laon-Zola;Laon-Zola jeunes;BD GAR 40;04/06/2020;Garfield;Livre;*07852665100*;Médiathèque Laon-Zola;En rayon;;Mme MILA MILA;1,95E+56;;40 Garfield fait le poids;Garfield;40
+Médiathèque Jean Falala;Falala image son art loisirs;FA BRO;02/06/2020;Cas de conscience;DVD;*07999265100*;Médiathèque Jean Falala;En rayon;;M. OLI OLIVIER;2,10E+56;;;;
+Médiathèque Jean Falala;Falala image son art loisirs;FA COP;04/06/2020;The Bling Ring;DVD;*08005835100*;Médiathèque Jean Falala;En rayon;;Mme VI Raymonde;1,96E+56;;;;
+Médiathèque Jean Falala;Falala image son art loisirs;FA ANT;04/06/2020;Profession reporter;DVD;*08019295100*;Médiathèque Jean Falala;En rayon;;Mme XXX Elise;2,25E+56;;;;
+Médiathèque Jean Falala;Falala sciences et techniques;796.08 BOM;04/06/2020;La santé en courant;Livre;*08025005100*;Médiathèque Laon-Zola;En rayon;;Mme YYY BERENICE;2,00E+56;;;;
+Médiathèque Jean Falala;Falala image son art loisirs;FA LEW;04/06/2020;Le Portrait de Dorian Gray;DVD;*08051875100*;Médiathèque Jean Falala;En rayon;;M. ZZZ PIERRE;1,18E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 21198;04/06/2020;Rançon;Livre;*08084775100*;Médiathèque Laon-Zola;En rayon;;Mme LIRR Lilas;1,98E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 21723;04/06/2020;Enquête à haut risque;Livre;*08085725100*;Médiathèque Croix-Rouge;En rayon;;M. AZER Jules;9,69E+55;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;DL 21508;04/06/2020;Au nom d'Archer;Livre;*08088845100*;Médiathèque Croix-Rouge;En rayon;;M. VMFR ARNAUD;9,69E+55;;;Pacte mortel;2
+Bibliothèque Carnegie;Carnegie fonds d'étude magasin;P 50205;04/06/2020;Terreur au bout du fil;Livre;*08097515100*;Médiathèque Croix-Rouge;En rayon;;M. POIR HUGO;9,69E+55;;;;
+Bibliothèque Carnegie;Carnegie fonds d'étude magasin;P 50374;04/06/2020;Pacte mortel;Livre;*08110795100*;Médiathèque Croix-Rouge;En rayon;;M. LOUIS PIERRE;9,69E+55;;1 Au nom de Vince;Pacte mortel;1
+Bibliothèque Carnegie;Carnegie fonds d'étude magasin;P 50375;04/06/2020;Pacte mortel;Livre;*08110805100*;Médiathèque Croix-Rouge;En rayon;;Mme ROBERT Sidonie;9,69E+55;;3 Au nom de Curtis;Pacte mortel;3
+Bibliothèque Carnegie;Carnegie fonds d'étude magasin;P 50376;04/06/2020;Pacte mortel;Livre;*08110815100*;Médiathèque Croix-Rouge;En rayon;;Mme LELIEVRE JEANNE;9,69E+55;;4 Ultime enquête;Pacte mortel;4
+Médiathèque Jean Falala;Falala sciences humaines;294.3 DES;03/06/2020;Zen et vie quotidienne;Livre;*08137625100*;Médiathèque Jean Falala;En rayon;;M. FOS CHRISTIAN;2,28E+56;;;;
+Médiathèque Jean Falala;Falala sciences humaines;294.3 DES;03/06/2020;La voix de la vallée;Livre;*08137715100*;Médiathèque Jean Falala;En rayon;;Mme LAL CELIA;2,28E+56;;;;
+Bibliothèque Saint-Remi;Saint Remi adultes;R KHA;04/06/2020;Les sirènes de Bagdad;Livre;*08195645100*;Médiathèque Croix-Rouge;En rayon;;Mme MARIE Marie;1,97E+56;;;;
+Bibliothèque Holden;Holden magasin jeunes;371.4 ALL;04/06/2020;Les métiers;Livre;*08239395100*;Médiathèque Jean Falala;En rayon;;Mme CORINNE CORINNE;2,22E+56;;;;
+Médiathèque Laon-Zola;Laon-Zola adultes;R DHO;03/06/2020;Le pays où l'on n'arrive jamais;Livre;*08249835100*;Médiathèque Laon-Zola;En rayon;;Mme MILA MILA;2,20E+56;;;;
+Médiathèque Laon-Zola;Laon-Zola adultes;230 CAT;04/06/2020;Le catholicisme pour les nuls;Livre;*08702135100*;Médiathèque Jean Falala;En rayon;;Mme ROBER DANIELE;2,11E+56;;;;
+Bibliothèque Carnegie;Carnegie fonds policier;P 50797;04/06/2020;Danse funèbre;Livre;*08744285100*;Médiathèque Croix-Rouge;En rayon;;Mme LIMEF Ingrid;9,69E+55;;;;
+Bibliothèque du Chemin-Vert;Chemin Vert jeunes;A NAD;04/06/2020;Chien bleu;Livre;*08761315100*;Médiathèque Jean Falala;En rayon;;M. TRISTAN Tristan;1,99E+56;;;;
+Bibliothèque Saint-Remi;Saint Remi jeunes;BD DUC 13;04/06/2020;L'élève Ducobu;Livre;*08763135100*;Médiathèque Jean Falala;En rayon;;Mme BEA BEATRICE;1,49E+56;;13 Pas vu pas pris !;L'élève Ducobu;13
+Médiathèque Laon-Zola;Laon-Zola jeunes;ARA DAR;04/06/2020;La souris et le voleur;Livre;*08790735100*;Médiathèque Croix-Rouge;En rayon;;Mme TIN TING  LEA;1,95E+56;;;;
+Médiathèque Jean Falala;Falala adultes littérature;POL JAM;04/06/2020;Comme une tombe;Livre;*08933105100*;Médiathèque Jean Falala;En rayon;;Mme DOM Dominique;2,23E+56;;;;
+Médiathèque Jean Falala;Falala adultes littérature;POL MAL;04/06/2020;Intérieur nord;Livre;*08936255100*;Médiathèque Croix-Rouge;En rayon;;Mme MILA MILA;1,56E+56;;;;
+Médiathèque Laon-Zola;Laon-Zola adultes;R SIM;04/06/2020;L'échiquier du mal;Livre;*08948455100*;Médiathèque Laon-Zola;En rayon;;M. OLI OLIVIER;2,11E+56;;;;
+Médiathèque Jean Falala;Falala junior (+ de 8 ans);FEL 372 PIV;04/06/2020;Apprendre à lire et à écrire à partir de l'album;Livre;*08954455100*;Médiathèque Jean Falala;En rayon;;Mme VI Raymonde;2,23E+56;;;Apprendre à lire et à écrire à partir de l'album;

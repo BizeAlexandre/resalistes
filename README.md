@@ -25,7 +25,7 @@ Ex : pip install operator
 
   retourtransit=24 # durée du prêt, en jours, s'il y a eu transit
 
-- lignes 55 à 66 : modifier le nom des bibliothèques du réseau
+- lignes 55 à 66 : modifier le nom des bibliothèques du réseau : bien mettre les libellés exacts et leur attribuer un code (sans espace)
 
 - lignes 205-206 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1)
 

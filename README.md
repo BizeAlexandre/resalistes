@@ -42,6 +42,6 @@ https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En co
 
 On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build). Attention : un exécutable produit sur une machine Windows 64 bits (typiquement les Windows 10 pro) ne fonctionnera pas nativement sous Windows 32 bits (versions plus anciennes de Windows).
 
-NB : concernant la production du csv : il sera bientôt possible de récupérer les données directement sur le serveur solr, à condition d'avoir login/mdp, et d'automatiser l'ensemble du processus. Actuellement, il manque l'indexation de la bibliothèque de mise à disposition dans Solr pour les réservations "en rayon".
+NB : concernant la production du csv : il sera bientôt possible de récupérer les données directement sur le serveur solr, à condition d'avoir login/mdp et d'automatiser l'ensemble du processus. Actuellement, il manque l'indexation de la bibliothèque de mise à disposition dans Solr pour les réservations "en rayon".
 
 La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script, mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

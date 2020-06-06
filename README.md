@@ -1,7 +1,7 @@
 # resalistes-solr
 resalistes-0.1-solr.py est un script écrit en Python 3 qui transforme un fichier csv contenant une liste de réservations issues d'un SIGB en plusieurs fichiers pdf. Ceux-ci permettent de préparer des commandes dans le cas d'une bibliothèque fonctionnant en mode "drive". Cette version constitue une version un peu plus ambitieuse du projet décrit ici : https://github.com/olivierhirsch/resalistes/tree/gh-pages
 
-Le fichier csv source est ici produit non plus depuis un export manuel depuis le SIGB, mais en allant chercher directement les données sur le serveur solr de Syracuse. Il nécessite d'avoir un accès (login/mdp) à ce serveur.
+Le fichier csv source est ici produit non plus depuis un export manuel depuis le SIGB, mais en allant chercher directement les données sur le serveur solr de Syracuse. Il nécessite d'avoir un accès (login/mdp) à ce serveur. La requête recherche l'ensemble des réservations dont la date de création est postérieure à J-5 et à l'état d'exemplaire "en rayon".
 
 (c) Denis Paris - Bibliothèque municipale de Reims - 2020
 

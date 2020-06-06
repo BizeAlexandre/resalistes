@@ -35,6 +35,7 @@ Ex : <code> pip install operator </code>
 - lignes 176-177 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de directement de Solr, choisir UTF8)
 
 4e étape : ouvrir une console et lancer les commandes suivantes :
+
 <code> cd c:\python38-32 </code> (dossier où est installé Python) </code>
 
 <code> python.exe solr_025.py </code>
@@ -55,6 +56,6 @@ Pour automatiser complètement la production des listes, et si on dispose d'une 
 
 Où T:\deconfinement... est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On peut programmer l'exécution quotidienne de ce batch avec le planificateur des tâches Windows. COnfiguré ainsi, es fichiers apparaissent tous les jours sans intervention.
 
-Note importante du 06/06/2020 : cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans Solr quand la réservation est "en rayon". Cela rend le produit pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
+Note importante du 06/06/2020 : cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans Solr quand la réservation est "en rayon". Cela rend cette version pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
 
 La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script, mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

@@ -27,7 +27,7 @@ Ex : pip install operator
 
 - lignes 55 à 66 : modifier le nom des bibliothèques du réseau
 
-- lignes 205-206 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate
+- lignes 205-206 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1)
 
 4e étape : ouvrir une console et lancer les commandes suivantes :
 - cd c:\python38-32 (dossier où est installé Python)

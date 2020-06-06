@@ -35,7 +35,7 @@ Ex : <code> pip install operator </code>
 - lignes 176-177 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de directement de Solr, choisir UTF8)
 
 4e étape : ouvrir une console et lancer les commandes suivantes :
-<code> cd c:\python38-32 </code> (dossier où est installé Python)
+<code> cd c:\python38-32 </code> (dossier où est installé Python) </code>
 <code> python.exe solr_025.py </code>
 <code> python.exe resalistes-0.1-solr.py </code>
 

@@ -44,11 +44,11 @@ Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\p
 Pour automatiser complètement la production des listes, et si on dispose d'une machine pouvant faire office de serveur Windows, il est possible d'écrire le fichier batch suivant :
 
 <code>
-cd c:\python38-32 <br>
-set $madate=%date:~-4%-%date:~3,2%-%date:~0,2% & echo %$madate% <br>
-python.exe solr_025.py <br>
-python.exe resalistes-0.1-solr.py <br>
-xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K <br>
+cd c:\python38-32 <br/>
+set $madate=%date:~-4%-%date:~3,2%-%date:~0,2% & echo %$madate% <br/>
+python.exe solr_025.py <br/>
+python.exe resalistes-0.1-solr.py <br/>
+xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K <br/>
 </code>
 Où T:\deconfinement... est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On peut programmer l'exécution quotidienne de ce batch avec le planificateur des tâches Windows. COnfiguré ainsi, es fichiers apparaissent tous les jours sans intervention.
 

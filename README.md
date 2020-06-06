@@ -19,7 +19,7 @@ Ex : <code> pip install operator </code>
 - ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr
 
 3e étape : adapter le code de resalistes-0.1-solr.py
-- ligne 16 : renseigner le nom du fichier csv source. Ici : solar_025.csv. A enregistrer dans le même répertoire que le script resalistes-0.1-solr.py
+- ligne 16 : renseigner le nom du fichier csv source. Ici : solar_025.csv
 
 - lignes 29 à 33 : renseigner les paramètres de durée
 

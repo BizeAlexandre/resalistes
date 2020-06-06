@@ -1,19 +1,24 @@
 # resalistes
-resalistes-0.1.py est un script écrit en Python 3 qui transforme un fichier csv contenant une liste de réservations issues d'un SIGB en plusieurs fichiers pdf. Ceux-ci permettent de préparer des commandes dans le cas d'une bibliothèque fonctionnant en mode "drive". Il est actuellement utilisé quotidiennement en production à la BM de Reims.
+resalistes-0.1-solr.py est un script écrit en Python 3 qui transforme un fichier csv contenant une liste de réservations issues d'un SIGB en plusieurs fichiers pdf. Ceux-ci permettent de préparer des commandes dans le cas d'une bibliothèque fonctionnant en mode "drive". Cette version constitue une version un peu plus ambitieuse du projet décrit ici : https://github.com/olivierhirsch/resalistes/tree/gh-pages
+
+Le fichier csv source est ici produit en allant chercher directement les données sur le serveur solr de Syracuse. Il nécessite d'avoir un accès (login/mdp) à ce serveur.
 
 (c) Denis Paris - Bibliothèque municipale de Reims - 2020
 
 
-Ce programme est destiné à convertir des exports csv de listes de documents réservés à la bibliothèque de Reims en provenance du SIGB Syracuse, pour produire des pdf contenant des listes de commandes. Il doit pouvoir être adapté à d'autres SIGB. Les fichiers pdf en exemple sont produits avec le script resalistes-0.1.py et le fichier minimum d'exemple a.csv. (Données anonymisées)
+Ce programme est destiné à convertir des exports csv de listes de documents réservés à la bibliothèque de Reims en provenance du SIGB Syracuse, pour produire des pdf contenant des listes de commandes. Il doit pouvoir être adapté à d'autres SIGB. Les fichiers pdf en exemple sont produits avec le script resalistes-0.1-solr.py et le fichier minimum d'exemple solr502.csv. (Données anonymisées)
 Pour le faire fonctionner dans une autre bibliothèque :
 
-1ere étape : construire un profil d'export dans Syracuse qui reproduise exactement les colonnes du fichier a.csv. Il faut le configurer comme dans le fichier profil.png, et chosir le type csv.
-
-2e étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip, en console.
+1ère étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip, en console.
 Ex : pip install operator 
 
-3e étape : adapter le code
-- ligne 18 : renseigner le nom du fichier csv source. Ici : a.csv. A enregistrer dans le même répertoire que le script resalistes-0.1.py
+2e étape : adapter le code de solar_025.py :
+- ligne 16 : dans l'url, remplacer 
+url='http://srvpw-medindx:8985 par l'adresse et le port du serveur solr
+- ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe du serveur
+
+3e étape : adapter le code de resalistes-0.1-solr.py
+- ligne 16 : renseigner le nom du fichier csv source. Ici : solar_025.csv. A enregistrer dans le même répertoire que le script resalistes-0.1-solr.py
 
 - lignes 29 à 33 : renseigner les paramètres de durée
 
@@ -27,21 +32,26 @@ Ex : pip install operator
 
 - lignes 51 à 60 : modifier le nom des bibliothèques du réseau : bien mettre les libellés exacts et leur attribuer un code (sans espace)
 
-- lignes 68-69 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1)
+- lignes 176-177 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de directement de Solr, choisir UTF8)
 
 4e étape : ouvrir une console et lancer les commandes suivantes :
 - cd c:\python38-32 (dossier où est installé Python)
-- python.exe resalistes-0.1.py
+- python.exe solr_025.py
+- python.exe resalistes-0.1-solr.py
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 
-Le script se prête assez facilement à la création d'un exécutable pour Windows avec la librairie Cx_Freeze pour une génération de pdf en un clic :
-https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En console, on exécute le script setup.py fourni :
-- installer cx_freeze : pip install cx_freeze
-- construire l'exécutable : python.exe setup.py build
+Pour automatiser complètement la production des listes, et si on dispose d'une machine pouvant faire office de serveur Windows, il est possible d'écrire le fichier batch suivant :
 
-On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build). Attention : un exécutable produit sur une machine Windows 64 bits (typiquement les Windows 10 pro) ne fonctionnera pas nativement sous Windows 32 bits (versions plus anciennes de Windows).
+<code>
+cd c:\python38-32 
+set $madate=%date:~-4%-%date:~3,2%-%date:~0,2% & echo %$madate%
+python.exe solr_025.py
+python.exe resalistes-0.1-solr.py
+xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K
+</code>
+Où T:\deconfinement... est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On peut programmer l'exécution quotidienne de ce batch avec le planificateur des tâches Windows. COnfiguré ainsi, es fichiers apparaissent tous les jours sans intervention.
 
-NB : concernant la production du csv : il sera bientôt possible de récupérer les données directement sur le serveur solr, à condition d'avoir login/mdp et d'automatiser l'ensemble du processus. Actuellement, il manque l'indexation de la bibliothèque de mise à disposition dans Solr pour les réservations "en rayon".
+Note importante du 06/06/2020 : cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans Solr quand la réservation est "en rayon". Cela rend le produit pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
 
 La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script, mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

@@ -46,9 +46,9 @@ Pour automatiser complètement la production des listes, et si on dispose d'une 
 <code>
 <div> cd c:\python38-32 <div/>
 <div>set $madate=%date:~-4%-%date:~3,2%-%date:~0,2%  <div/>
-python.exe solr_025.py <br/>
-python.exe resalistes-0.1-solr.py <br/>
-xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K <br/>
+<div>python.exe solr_025.py <div/>
+<div>python.exe resalistes-0.1-solr.py <div/>
+<div>xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K <div/>
 </code>
 Où T:\deconfinement... est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On peut programmer l'exécution quotidienne de ce batch avec le planificateur des tâches Windows. COnfiguré ainsi, es fichiers apparaissent tous les jours sans intervention.
 

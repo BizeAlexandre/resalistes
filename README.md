@@ -34,9 +34,9 @@ Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère 
 Choisir UTF8 si on ne passe pas par Excel, et à condition d'avoir modifié dans Windows le paramètre séparateur de liste pour mettre | :
 https://support.office.com/fr-fr/article/changer-le-caract%c3%a8re-utilis%c3%a9-pour-s%c3%a9parer-des-milliers-ou-des-d%c3%a9cimales-c093b545-71cb-4903-b205-aebb9837bd1e?ui=fr-FR&rs=fr-FR&ad=FR
 
-<h4> exécuter le code</h4>ouvrir une console et lancer les commandes suivantes :
-<code> cd c:\python38-32 </code> (dossier où est installé Python)
-<code> python.exe resalistes-0.1.py </code>
+<h4> exécuter le code</h4>ouvrir une console et lancer les commandes suivantes :<br>
+<code> cd c:\python38-32 </code> (dossier où est installé Python)<br>
+<code> python.exe resalistes-0.1.py </code><br>
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 

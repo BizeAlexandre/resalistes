@@ -13,7 +13,7 @@ Les fichiers pdf produits ont le même aspect que dans la version "de base" disp
 
 - Télécharger Python 3.8 ici : https://www.python.org/downloads/
 
-- L'installer dans un dossier accessible. Ex: c\python38-32. Nécessite des droits administrateur du poste.
+- L'installer dans un dossier accessible. Ex: C:\python38-32. Cela nécessite d'avoir les droits administrateur du poste.
 
 - Installer les librairies nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip. "Requests" et "re" sont rajoutés par rapport à la version "de base". En console, exécuter la commande :
 <br><br><code>pip install idna csv time operator os datetime reportlab requests re</code>

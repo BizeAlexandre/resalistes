@@ -5,7 +5,7 @@ Le fichier csv source n'est désormais plus produit par un export manuel depuis 
 
 Les fichiers pdf produits ont le même aspect que dans la version "de base" disponible ici : https://github.com/olivierhirsch/resalistes/tree/gh-pages. Le code est mieux commenté ici que dans la version précédente. Voici comment l'adapter pour une autre bibliothèque.
 
-©Denis Paris, Olivier Hirsch - Bibliothèque municipale de Reims - 2020
+©2020 Denis Paris, Olivier Hirsch - Bibliothèque municipale de Reims 
 
 <h2>mode d'emploi (Windows)</h2>
 

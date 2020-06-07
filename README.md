@@ -45,7 +45,7 @@ https://support.office.com/fr-fr/article/changer-le-caract%c3%a8re-utilis%c3%a9-
 <code> cd c:\python38-32 </code> (dossier où est installé Python)<br>
 <code> python.exe resalistes-0.1.py </code><br><br>
 
-Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ici : falala-2020-06-06.pdf
+Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ici : falala-2020-06-06.pdf. Les codes-barres sont en code128, penser à reconfigurer les douchettes si elles ne lisent que le code39.
 
 <h4>optionnel : créer un exécutable pour Windows</h4>
 Le script se prête assez facilement à la création d'un exécutable pour Windows avec la librairie Cx_Freeze pour générer les pdf en un clic :

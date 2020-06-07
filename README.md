@@ -33,7 +33,7 @@ Les fichiers produits pdf ont le même aspect que dans la version "de base" disp
 
 - lignes 51 à 60 : modifier le nom des bibliothèques du réseau : bien mettre les libellés exacts et leur attribuer un code (sans espace)
 
-<h4>Exécuter le code</h4> Ouvrir une console et lancer les commandes suivantes :
+<h4>exécuter le code</h4> Ouvrir une console et lancer les commandes suivantes :
 
 <code> cd c:\python38-32 </code> (dossier où est installé Python)
 
@@ -43,7 +43,7 @@ Les fichiers produits pdf ont le même aspect que dans la version "de base" disp
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 
-<h4>automatiser complètement la production des listes</h4> Si on dispose d'une machine pouvant faire office de serveur Windows (une machine de bureau jamais éteinte et loggée sur une session disposant des accès serveur nécéssaires suffit), il est possible d'écrire le fichier batch suivant, nommé auto.bat, pour automatiser la production de listes :
+<h4>optionnel : automatiser complètement la production des listes</h4> Si on dispose d'une machine pouvant faire office de serveur Windows (une machine de bureau jamais éteinte et loggée sur une session disposant des accès serveur nécéssaires suffit), il est possible d'écrire le fichier batch suivant, nommé auto.bat, pour automatiser la production de listes :
 
 <code>
 <div> cd c:\python38-32 </div>

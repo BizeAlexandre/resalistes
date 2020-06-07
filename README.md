@@ -23,7 +23,7 @@ Les fichiers pdf produits ont le même aspect que dans la version "de base" disp
 <h4>adapter le code</h4><h5>adapter solar_025.py</h5> Enregistrer le fichier solar_025.py dans le dossier où Python est installé, puis l'ouvrir avec un éditeur de texte et :
 
 - ligne 16 : dans l'url, remplacer 
-<br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse. Dans l'URL, laisser la fin : il s'agit de la requête qui va chercher les données.
+<br><code> url='http://srvapw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse. Dans l'URL, laisser la fin : il s'agit de la requête qui va chercher les données.
 
 - ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr.
 

@@ -3,12 +3,11 @@ resalistes-0.1-solr.py est un script écrit en Python 3 qui transforme un fichie
 
 Le fichier csv source est ici produit non plus depuis un export manuel depuis le SIGB, mais en allant chercher directement les données sur le serveur solr de Syracuse. Il nécessite d'avoir un accès (login/mdp) à ce serveur. La requête recherche l'ensemble des exemplaires réservés dont la date de réservation est postérieure à J-5 et à l'état d'exemplaire "en rayon".
 
+Les fichiers produits pdf ont le même aspect que dans la version "de base" disponible ici : https://github.com/olivierhirsch/resalistes/tree/gh-pages. Le code est mieux commenté ici que dans la version précédente.
+
 (c) Denis Paris - Bibliothèque municipale de Reims - 2020
 
-
-Les fichiers produits pdf ont le même aspect que dans la version "de base" disponible ici : https://github.com/olivierhirsch/resalistes/tree/gh-pages
-
-Le code est mieux commenté ici que dans la version précédente. Pour le faire fonctionner ailleurs qu'à la BM de Reims, il faut :
+ Pour le faire fonctionner ailleurs qu'à la BM de Reims, il faut :
 
 1ère étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip. "Requests" et "re" sont rajoutés par rapport à la version "de base". En console, exécuter la commande :
 <br><code>pip install idna csv time operator os datetime reportlab requests re</code>

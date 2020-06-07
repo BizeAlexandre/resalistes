@@ -12,10 +12,17 @@ Construire un profil d'export dans Syracuse qui reproduise exactement les colonn
 <br><br>
 Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère "|" comme séparateur, pas reconnu par défaut par Windows. Pour produire un .csv exploitable, il faut donc : Excel,ouvrir le fichier sorti de Syracuse, sélectionner la première colonne, puis faire données>convertir>délimité, et mettre "|" comme séparateur. L'enregistrer sous a.csv (format csv, séparateur ;). A faire à chaque édition de liste.
 
-<h4>préparer Python</h4> Installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console, exécuter la commande :
+<h4>installer et préparer Python</h4>
+
+- Télécharger Python 3.8 ici : https://www.python.org/downloads/
+
+- L'installer dans un dossier accessible. Ex: c\python38-32. Nécessite des droits administrateur du poste.
+
+- Installer les librairies nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console, exécuter la commande :
 <br><br><code>pip install idna csv time operator os datetime reportlab</code><br><br>
 
 <h4>adapter le code</h4>Enregistrer le fichier resalistes-0.1.py dans le dossier où Python est installé, puis l'ouvrir avec un éditeur de texte et :
+
 - ligne 18 : renseigner le nom du fichier csv source. Ici : a.csv. A enregistrer dans le même répertoire que le script resalistes-0.1.py
 
 - lignes 29 à 33 : renseigner les paramètres de durée

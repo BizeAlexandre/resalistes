@@ -12,14 +12,14 @@ Les fichiers produits pdf ont le même aspect que dans la version "de base" disp
 <h4>préparer Python</h4> Installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip. "Requests" et "re" sont rajoutés par rapport à la version "de base". En console, exécuter la commande :
 <br><br><code>pip install idna csv time operator os datetime reportlab requests re</code>
 
-<h4>adapter le code</h4> Enregistrer le fichier solar_025.py dans le dossier où Python est installé, puis l'ouvrir avec un éditeur de texte et :
+<h4>adapter le code</h4><h6>adapter solar_o25.py</h6> Enregistrer le fichier solar_025.py dans le dossier où Python est installé, puis l'ouvrir avec un éditeur de texte et :
 
 - ligne 16 : dans l'url, remplacer 
 <br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse. Dans l'URL, laisser la fin : il s'agit de la requête qui va chercher les données.
 
 - ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr
 
-3e étape : adapter le code de resalistes-0.1-solr.py. Enregistrer le fichier dans le dossier où Python est installé puis l'éditer, et :
+<h6>adapter resalistes-0.1-solr.py</h6> Enregistrer le fichier dans le dossier où Python est installé puis l'éditer, et :
 - ligne 16 : renseigner le nom du fichier csv source. Ici : solar_025.csv
 
 - lignes 29 à 33 : renseigner les paramètres de durée

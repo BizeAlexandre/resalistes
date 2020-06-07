@@ -43,7 +43,9 @@ Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\p
 <h4>optionnel : créer un exécutable pour Windows</h4>
 Le script se prête assez facilement à la création d'un exécutable pour Windows avec la librairie Cx_Freeze pour générer les pdf en un clic :
 https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En console, on exécute le script setup.py fourni :<br>
+
 - installer cx_freeze : <br><code> pip install cx_freeze </code><br><br>
+
 - construire l'exécutable : <br><code> python.exe setup.py build </code><br><br>
 
 On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build). Attention : un exécutable produit sur une machine Windows 64 bits (typiquement les Windows 10 pro) ne fonctionnera pas nativement sous Windows 32 bits (versions plus anciennes de Windows).

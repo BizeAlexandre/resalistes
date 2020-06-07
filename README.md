@@ -64,6 +64,8 @@ Où T:\deconfinement\drive\listes est le serveur commun où les fichiers seront 
 On peut aussi en faire un exécutable pour une utilisation à la demande en un clic. Voir la méthode ici :
 https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md#optionnel--cr%C3%A9er-un-ex%C3%A9cutable-pour-windows
 
+Editer setup.py et remplacer resalistes-0.1.py par resalistes-0.1-solr.py
+
 <h4>note importante du 06/06/2020</h4>Cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans solr quand la réservation est "en rayon". Cela rend cette version pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
 
 <h4>avertissement</h4>La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ces scripts. Mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

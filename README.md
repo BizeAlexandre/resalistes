@@ -56,7 +56,7 @@ Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\p
 Où T:\deconfinement\drive\listes est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On peut programmer l'exécution quotidienne de ce batch avec le planificateur des tâches Windows. Configuré ainsi, les fichiers apparaissent tous les jours sans intervention humaine au bon endroit.
 
 On peut aussi en faire un exécutable pour une utilisation à la demande en un clic. Voir la méthode à la fin de la page :
-https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md
+https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md#optionnel--cr%C3%A9er-un-ex%C3%A9cutable-pour-windows
 
 <h4>note importante du 06/06/2020</h4>Cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans solr quand la réservation est "en rayon". Cela rend cette version pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
 

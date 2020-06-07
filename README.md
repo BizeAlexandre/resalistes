@@ -10,7 +10,7 @@ Ce programme est destiné à convertir des exports csv de listes de documents r�
 <h4>configurer Syracuse</h4>
 Construire un profil d'export dans Syracuse qui reproduise exactement les colonnes du fichier a.csv. Il faut le configurer comme dans le fichier profil.png, et chosir le type csv. Pour les variables soumises à référentiel, choisir "libellé" plutôt que "code".
 <br><br>
-Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère "|" comme séparateur, pas reconnu par défaut par Windows. Pour produire un .csv exploitable, il faut donc : ouvrir Excel,ouvrir le fichier sorti de Syracuse, sélectionner la première colonne, puis faire données>convertir>délimité, et mettre "|" comme séparateur. L'enregistrer sous a.csv (format csv, séparateur ;). A faire à chaque édition de liste.
+Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère "|" comme séparateur, pas reconnu par défaut par Windows. Pour produire un .csv exploitable, il faut donc : Excel,ouvrir le fichier sorti de Syracuse, sélectionner la première colonne, puis faire données>convertir>délimité, et mettre "|" comme séparateur. L'enregistrer sous a.csv (format csv, séparateur ;). A faire à chaque édition de liste.
 
 <h4>préparer Python</h4> Installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console, exécuter la commande :
 <br><code>pip install idna csv time operator os datetime reportlab</code>
@@ -36,9 +36,9 @@ https://support.office.com/fr-fr/article/changer-le-caract%c3%a8re-utilis%c3%a9-
 
 <h4> exécuter le code</h4>ouvrir une console et lancer les commandes suivantes :<br>
 <code> cd c:\python38-32 </code> (dossier où est installé Python)<br>
-<code> python.exe resalistes-0.1.py </code><br>
+<code> python.exe resalistes-0.1.py </code><br><br>
 
-Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
+Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ici : falala-2020-06-06.pdf
 
 <h4>optionnel : créer un exécutable pour Windows</h4>
 Le script se prête assez facilement à la création d'un exécutable pour Windows avec la librairie Cx_Freeze pour générer les pdf en un clic :

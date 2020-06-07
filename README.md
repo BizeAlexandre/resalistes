@@ -18,7 +18,7 @@ Le code est mieux commenté ici que dans la version précédente. Pour le faire 
 <br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse dans l'URL. Laisser la fin de la requête.
 - ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr
 
-3e étape : adapter le code de resalistes-0.1-solr.py
+3e étape : adapter le code de resalistes-0.1-solr.py. Editer le fichier puis :
 - ligne 16 : renseigner le nom du fichier csv source. Ici : solar_025.csv
 
 - lignes 29 à 33 : renseigner les paramètres de durée

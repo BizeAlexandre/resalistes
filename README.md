@@ -11,7 +11,7 @@ Les fichiers produits pdf ont le même aspect que dans la version "de base" disp
 Le code est mieux commenté ici que dans la version précédente. Pour le faire fonctionner ailleurs qu'à la BM de Reims, il faut :
 
 1ère étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip. En console, exécuter la commande :
-Ex : <code>pip install idna csv time operator os datetime reportlab requests re</code>
+<br><code>pip install idna csv time operator os datetime reportlab requests re</code>
 
 2e étape : adapter le code de solar_025.py :
 - ligne 16 : dans l'url, remplacer 

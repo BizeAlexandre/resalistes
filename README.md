@@ -18,6 +18,8 @@ Les fichiers pdf produits ont le même aspect que dans la version "de base" disp
 - Installer les librairies nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip.  En console (lancer cmd.exe), exécuter la commande :
 <br><br><code>pip install idna csv time operator os datetime reportlab requests re</code>
 
+"requests" et "re" s'ajoutent par rapport à la version "de base".
+
 <h4>adapter le code</h4><h5>adapter solar_025.py</h5> Enregistrer le fichier solar_025.py dans le dossier où Python est installé, puis l'ouvrir avec un éditeur de texte et :
 
 - ligne 16 : dans l'url, remplacer 

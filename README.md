@@ -1,7 +1,7 @@
 # resalistes-solr
 resalistes-0.1-solr.py est un script écrit en Python 3 qui transforme un fichier csv contenant une liste de réservations issues d'un SIGB en plusieurs fichiers pdf : un par bibliothèque, une page par réservataire. Ceux-ci permettent de préparer des commandes dans le cas d'une bibliothèque fonctionnant en mode "drive". Cette version constitue une version un peu plus ambitieuse du projet décrit ici : https://github.com/olivierhirsch/resalistes/tree/gh-pages
 
-Le fichier csv source est ici produit non plus depuis un export manuel depuis le SIGB, mais en allant chercher directement les données sur le serveur solr de Syracuse. Il nécessite d'avoir un accès (login/mdp) à ce serveur. La requête recherche l'ensemble des réservations dont la date de création est postérieure à J-5 et à l'état d'exemplaire "en rayon".
+Le fichier csv source est ici produit non plus depuis un export manuel depuis le SIGB, mais en allant chercher directement les données sur le serveur solr de Syracuse. Il nécessite d'avoir un accès (login/mdp) à ce serveur. La requête recherche l'ensemble des exemplaires réservés dont la date de réservation est postérieure à J-5 et à l'état d'exemplaire "en rayon".
 
 (c) Denis Paris - Bibliothèque municipale de Reims - 2020
 
@@ -15,7 +15,7 @@ Le code est mieux commenté ici que dans la version précédente. Pour le faire 
 
 2e étape : adapter le code. Avec un éditeur de texte, éditer solar_025.py puis :
 - ligne 16 : dans l'url, remplacer 
-<br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse. Dans l'URL, laisser la fin : il s'agit de la requête qui va chercher les données : réservations crées depuis moins de 5 jours et à l'état "en rayon".
+<br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse. Dans l'URL, laisser la fin : il s'agit de la requête qui va chercher les données.
 
 - ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr
 

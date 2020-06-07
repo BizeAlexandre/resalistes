@@ -13,9 +13,9 @@ Le code est mieux commenté ici que dans la version précédente. Pour le faire 
 1ère étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip. En console, exécuter la commande :
 <br><code>pip install idna csv time operator os datetime reportlab requests re</code>
 
-2e étape : adapter le code de solar_025.py :
+2e étape : adapter le code. Avec un éditeur de texte, éditer solar_025.py puis :
 - ligne 16 : dans l'url, remplacer 
-<code> url='http://srvpw-medindx:8985 </code> par l'adresse et le port du serveur solr de votre installation Syracuse
+<br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse dans l'URL. Laisser la fin de la requête.
 - ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr
 
 3e étape : adapter le code de resalistes-0.1-solr.py

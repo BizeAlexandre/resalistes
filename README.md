@@ -66,4 +66,4 @@ https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md#optionnel--c
 
 <h4>note importante du 06/06/2020</h4>Cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans solr quand la réservation est "en rayon". Cela rend cette version pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
 
-<h4>avertissement</h4>La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script. Mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.
+<h4>avertissement</h4>La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ces scripts. Mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

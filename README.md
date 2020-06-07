@@ -68,7 +68,7 @@ Où T:\deconfinement\drive\listes est le serveur commun où les fichiers seront 
 On peut aussi en faire un exécutable pour une utilisation à la demande en un clic. Voir la méthode ici :
 https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md#optionnel--cr%C3%A9er-un-ex%C3%A9cutable-pour-windows
 
-Editer setup.py et remplacer resalistes-0.1.py par resalistes-0.1-solr.py, puis par solar_o25.py (deux exécutables ; il existe des méthodes pour n'en faire qu'un seul).
+Editer setup.py et remplacer resalistes-0.1.py par resalistes-0.1-solr.py, puis par solar_025.py (deux exécutables ; il existe des méthodes pour n'en faire qu'un seul).
 
 <h4>note importante du 06/06/2020</h4>Cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans solr quand la réservation est "en rayon". Cela rend cette version pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
 

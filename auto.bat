@@ -4,6 +4,7 @@ if exist solr_025.csv ren solr_025.csv solr_025-%$madate%.csv
 python.exe solr_025.py
 python.exe resalistes-0.1-solr.py
 xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K
+del solr_025.csv /f /q
 
 
 ::Copyright (C) <2020>  >Olivier Hirsch> <Bibliothèque municipale de Reims>

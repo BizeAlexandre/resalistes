@@ -55,9 +55,7 @@ https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En co
 
 - construire l'exécutable : <br><code> python.exe setup.py build </code><br><br>
 
-On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build). Attention : un exécutable produit sur une machine Windows 64 bits (typiquement les Windows 10 pro) ne fonctionnera pas nativement sous Windows 32 bits (versions plus anciennes de Windows).
-
-Cet exécutable et son dossier peuvent être copiés sur un serveur commun et mis à la disposition de tous pour déléguer l'édition de listes.
+On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build). Cet exécutable et son dossier peuvent être copiés sur un serveur commun et mis à la disposition de tous pour déléguer l'édition de listes.
 
 <h4>Note sur la production du fichier csv source</h4>Pour automatiser l'ensemble du processus et se passer de l'export manuel depuis Syracuse, il est possible de récupérer les données directement sur le serveur solr. Il faut disposer pour cela d'un compte (login/mdp) sur ce serveur. Le script permettant de faire cela est disponible ici, avec un code davantage commenté :<br>
 https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr

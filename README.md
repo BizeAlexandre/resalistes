@@ -16,7 +16,7 @@ Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère 
 
 - Télécharger Python 3.8 ici : https://www.python.org/downloads/
 
-- L'installer dans un dossier accessible. Ex: c\python38-32. Nécessite des droits administrateur du poste.
+- L'installer dans un dossier accessible. Ex: C:\python38-32. Cela nécessite d'avoir les droits administrateur du poste.
 
 - Installer les librairies nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console, exécuter la commande :
 <br><br><code>pip install idna csv time operator os datetime reportlab</code><br><br>

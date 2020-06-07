@@ -308,7 +308,7 @@ for line in tabdoc:
 envoipdf(cell)  	 
 
 """
-Copyright (C) <2020>  <Denis Paris>
+Copyright (C) <2020>  <Denis Paris> <Bibliothèque municipale de Reims>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

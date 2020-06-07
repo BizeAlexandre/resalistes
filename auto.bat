@@ -5,7 +5,7 @@ python.exe resalistes-0.1-solr.py
 xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K
 
 
-::Copyright (C) <2020>  >Olivier Hirsch>
+::Copyright (C) <2020>  >Olivier Hirsch> <Bibliothèque municipale de Reims>
 
   ::  This program is free software: you can redistribute it and/or modify
   ::  it under the terms of the GNU General Public License as published by

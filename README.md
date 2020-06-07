@@ -44,6 +44,10 @@ https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En co
 
 On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build). Attention : un exécutable produit sur une machine Windows 64 bits (typiquement les Windows 10 pro) ne fonctionnera pas nativement sous Windows 32 bits (versions plus anciennes de Windows).
 
-NB : concernant la production du csv : il sera bientôt possible de récupérer les données directement sur le serveur solr, à condition d'avoir login/mdp et d'automatiser l'ensemble du processus. Actuellement, il manque l'indexation de la bibliothèque de mise à disposition dans Solr pour les réservations "en rayon". Ce cas est traité dans : https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr (avec du code commenté davantage).
+NB : concernant la production du fichier csv contenant les données : il est possible de récupérer les données directement sur le serveur solr, à condition d'avoir un login/mdp et d'automatiser l'ensemble du processus. Actuellement, pour que cela fonctionne, il manque l'indexation de la bibliothèque de mise à disposition dans Solr pour les réservations "en rayon". Le script permettant de faire cela est disponible ici, avec un code davantage commenté :
+https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr 
+
+L'indexation de la donnée manquante devrait intervenir dans les jours à venir.
+
 
 La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script, mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

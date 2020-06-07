@@ -33,11 +33,9 @@ Les fichiers produits pdf ont le même aspect que dans la version "de base" disp
 
 - lignes 51 à 60 : modifier le nom des bibliothèques du réseau : bien mettre les libellés exacts et leur attribuer un code (sans espace)
 
-- lignes 176-177 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de directement de Solr, choisir UTF8)
-
 4e étape : ouvrir une console et lancer les commandes suivantes :
 
-<code> cd c:\python38-32 </code> (dossier où est installé Python) </code>
+<code> cd c:\python38-32 </code> (dossier où est installé Python)
 
 <code> python.exe solr_025.py </code>
 

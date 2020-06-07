@@ -49,7 +49,7 @@ Les fichiers pdf produits ont le même aspect que dans la version "de base" disp
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf. Les codes-barres sont en code128, penser à reconfigurer les douchettes si elles ne lisent que le code39.
 
-<h4>optionnel : automatiser complètement la production des listes</h4> Il faut disposer d'une machine pouvant faire office de serveur Windows. Une machine de bureau suffit : il faut qu'elle soit allumée en permanence et loggée sur une session disposant des accès aux serveurs nécéssaires; il faut aussi y installer python et les librairies. Il est possible alors d'écrire le fichier batch suivant, nommé auto.bat (fourni), pour automatiser la production de listes :
+<h4>optionnel : automatiser complètement la production des listes</h4> Il faut disposer d'une machine pouvant faire office de serveur Windows. Une machine de bureau suffit : il faut qu'elle soit allumée en permanence et loggée sur une session disposant des accès aux serveurs nécéssaires; il faut aussi y installer Python et les librairies. Il est possible alors d'écrire le fichier batch suivant, nommé auto.bat (fourni), pour automatiser la production de listes :
 <br>
 <code>
 <div> cd c:\python38-32 </div>

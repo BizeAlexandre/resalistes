@@ -47,7 +47,7 @@ Les fichiers pdf produits ont le même aspect que dans la version "de base" disp
 
 <code> python.exe resalistes-0.1-solr.py </code>
 
-Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
+Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf. Les codes-barres sont en code128, penser à reconfigurer les douchettes si elles ne lisent que le code39.
 
 <h4>optionnel : automatiser complètement la production des listes</h4> Si on dispose d'une machine pouvant faire office de serveur Windows (une machine de bureau jamais éteinte et loggée sur une session disposant des accès aux serveurs nécéssaires suffit), il est possible d'écrire le fichier batch suivant, nommé auto.bat, pour automatiser la production de listes :
 <br>

@@ -49,7 +49,7 @@ Les fichiers pdf produits ont le même aspect que dans la version "de base" disp
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf. Les codes-barres sont en code128, penser à reconfigurer les douchettes si elles ne lisent que le code39.
 
-<h4>optionnel : automatiser complètement la production des listes</h4> Si on dispose d'une machine pouvant faire office de serveur Windows (une machine de bureau jamais éteinte et loggée sur une session disposant des accès aux serveurs nécéssaires suffit), il est possible d'écrire le fichier batch suivant, nommé auto.bat, pour automatiser la production de listes :
+<h4>optionnel : automatiser complètement la production des listes</h4> Il faut disposer d'une machine pouvant faire office de serveur Windows. Une machine de bureau suffit : il faut qu'elle soit allumée en permanence et loggée sur une session disposant des accès aux serveurs nécéssaires; il faut aussi y installer python et les librairies. Il est possible alors d'écrire le fichier batch suivant, nommé auto.bat (fourni), pour automatiser la production de listes :
 <br>
 <code>
 <div> cd c:\python38-32 </div>
@@ -59,7 +59,7 @@ Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\p
 <div> xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K </div>
 </code>
 
-Où T:\deconfinement\drive\listes est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On peut programmer l'exécution quotidienne de ce batch avec le planificateur des tâches Windows. Configuré ainsi, les fichiers apparaissent tous les jours sans intervention humaine au bon endroit.
+Où T:\deconfinement\drive\listes est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On programme l'exécution quotidienne de ce batch avec le planificateur des tâches de Windows. Configuré ainsi, les fichiers apparaissent tous les jours sans intervention humaine au bon endroit.
 
 On peut aussi en faire un exécutable pour une utilisation à la demande en un clic. Voir la méthode ici :
 https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md#optionnel--cr%C3%A9er-un-ex%C3%A9cutable-pour-windows

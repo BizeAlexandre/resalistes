@@ -34,7 +34,7 @@ Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère 
 Choisir UTF8 si on ne passe pas par Excel, et à condition d'avoir modifié dans Windows le paramètre séparateur de liste pour mettre | :
 https://support.office.com/fr-fr/article/changer-le-caract%c3%a8re-utilis%c3%a9-pour-s%c3%a9parer-des-milliers-ou-des-d%c3%a9cimales-c093b545-71cb-4903-b205-aebb9837bd1e?ui=fr-FR&rs=fr-FR&ad=FR
 
-<h4> exécuter le code</h4>ouvrir une console et lancer les commandes suivantes :<br>
+<h4> exécuter le code</h4>Ouvrir une console et lancer les commandes suivantes :<br><br>
 <code> cd c:\python38-32 </code> (dossier où est installé Python)<br>
 <code> python.exe resalistes-0.1.py </code><br><br>
 

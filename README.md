@@ -60,6 +60,7 @@ Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\p
 <div> python.exe solr_025.py </div>
 <div> python.exe resalistes-0.1-solr.py </div>
 <div> xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K </div>
+<div>del solr_025.csv /f /q</div>
 </code>
 
 Où T:\deconfinement\drive\listes est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On programme l'exécution quotidienne de ce batch avec le planificateur des tâches de Windows.(Pour planifier une tâche : https://www.supinfo.com/articles/single/4998-utiliser-planificateur-taches-windows-10). Configuré ainsi, les fichiers apparaissent tous les jours sans intervention humaine au bon endroit.

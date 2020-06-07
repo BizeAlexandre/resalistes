@@ -14,7 +14,7 @@ Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère 
 2e étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console, exécuter la commande :
 <br><code>pip install idna csv time operator os datetime reportlab</code>
 
-3e étape : adapter le code : avec un éditeur de texte, éditer resalistes-0.1.py puis :
+3e étape : adapter le code :  Enregistrer le fichier resalistes-0.1.py dans le dossier où Python est installé, puis l'ouvrir avec un éditeur de texte et :
 - ligne 18 : renseigner le nom du fichier csv source. Ici : a.csv. A enregistrer dans le même répertoire que le script resalistes-0.1.py
 
 - lignes 29 à 33 : renseigner les paramètres de durée

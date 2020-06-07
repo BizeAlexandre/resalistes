@@ -11,8 +11,8 @@ Pour le faire fonctionner dans une autre bibliothèque :
 
 Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère "|" comme séparateur, pas reconnu par défaut par Windows. Pour produire un .csv exploitable, il faut donc : ouvrir Excel,ouvrir le fichier sorti de Syracuse, sélectionner la première colonne, puis faire données>convertir>délimité, et mettre "|" comme séparateur. L'enregistrer sous a.csv (format csv, séparateur ;). A faire à chaque édition de liste.
 
-2e étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console, taper la commande :
-<code> pip install idna csv time operator os datetime reportlab</code>
+2e étape : installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console, exécuter la commande :
+<br><code>pip install idna csv time operator os datetime reportlab</code>
 
 3e étape : adapter le code
 - ligne 18 : renseigner le nom du fichier csv source. Ici : a.csv. A enregistrer dans le même répertoire que le script resalistes-0.1.py

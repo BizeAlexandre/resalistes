@@ -56,6 +56,7 @@ Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\p
 <code>
 <div> cd c:\python38-32 </div>
 <div> set $madate=%date:~-4%-%date:~3,2%-%date:~0,2%  </div>
+<div> if exist solr_025.csv ren solr_025.csv solr_025-%$madate%.csv</div>
 <div> python.exe solr_025.py </div>
 <div> python.exe resalistes-0.1-solr.py </div>
 <div> xcopy C:\Python38-32\%$madate% T:\deconfinement\drive\listes\%$madate% /E /C /R /H /I /K </div>

@@ -37,7 +37,7 @@ Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère 
 
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 
-<h4>Optionnel : créer un exécutable pour Windows</h4>
+<h4>optionnel : créer un exécutable pour Windows</h4>
 Le script se prête assez facilement à la création d'un exécutable pour Windows avec la librairie Cx_Freeze pour générer les pdf en un clic :
 https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En console, on exécute le script setup.py fourni :
 - installer cx_freeze : <br><code> pip install cx_freeze </code>

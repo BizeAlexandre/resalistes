@@ -30,7 +30,9 @@ Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère 
 
 - lignes 51 à 60 : modifier le nom des bibliothèques du réseau : bien mettre les libellés exacts et leur attribuer un code (sans espace)
 
-- lignes 68-69 : Pas de modification à faire en principe. Elles permettent de choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate : pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1.
+- lignes 68-69 : Pas de modification à faire en principe. Elles permettent de choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate. Pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1.
+Choisir UTF8 si on ne passe pas par Excel, et à condition d'avoir modifié dans Windows le paramètre séparateur de liste pour mettre | :
+https://support.office.com/fr-fr/article/changer-le-caract%c3%a8re-utilis%c3%a9-pour-s%c3%a9parer-des-milliers-ou-des-d%c3%a9cimales-c093b545-71cb-4903-b205-aebb9837bd1e?ui=fr-FR&rs=fr-FR&ad=FR
 
 <h4> exécuter le code</h4>ouvrir une console et lancer les commandes suivantes :
 <code> cd c:\python38-32 </code> (dossier où est installé Python)

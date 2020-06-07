@@ -29,7 +29,7 @@ Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère 
 
 - lignes 51 à 60 : modifier le nom des bibliothèques du réseau : bien mettre les libellés exacts et leur attribuer un code (sans espace)
 
-- lignes 68-69 : choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate (pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1)
+- lignes 68-69 : Pas de modification à faire en principe. Elles permettent de choisir l'encodage du fichier source en commentant/décommantant la ligne adéquate : pour un fichier issu de l'export Syracuse et passé par Excel, choisir ISO8859-1.
 
 4e étape : ouvrir une console et lancer les commandes suivantes :
 <code> cd c:\python38-32 </code> (dossier où est installé Python)
@@ -43,6 +43,8 @@ https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En co
 - construire l'exécutable : <code> python.exe setup.py build </code>
 
 On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build). Attention : un exécutable produit sur une machine Windows 64 bits (typiquement les Windows 10 pro) ne fonctionnera pas nativement sous Windows 32 bits (versions plus anciennes de Windows).
+
+Cet exécutable et son dossier peuvent être copiés sur un serveur commun et mis à la disposition de tous pour déléguer l'édition de listes.
 
 NB : concernant la production du fichier csv contenant les données : il est possible de récupérer les données directement sur le serveur solr, à condition d'avoir un login/mdp et d'automatiser l'ensemble du processus. Actuellement, pour que cela fonctionne, il manque l'indexation de la bibliothèque de mise à disposition dans Solr pour les réservations "en rayon". Le script permettant de faire cela est disponible ici, avec un code davantage commenté :
 https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr 

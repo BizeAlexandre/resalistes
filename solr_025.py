@@ -31,10 +31,6 @@ def decoupechamp (content):
         txt+=t
     return txt
         
-        
-            
-        
-
 content = r.text
 content=cleanhtml(content)
 content=decoupechamp(content)

@@ -7,7 +7,7 @@ Les fichiers pdf produits ont le même aspect que dans la version "de base" disp
 
 (c) Denis Paris - Bibliothèque municipale de Reims - 2020
 
-<h2>mode d'emploi</h2>
+<h2>mode d'emploi (Windows)</h2>
 
 <h4>installer et préparer Python</h4>
 

@@ -1,9 +1,8 @@
 from cx_Freeze import setup, Executable
 import sys
 
-base = "Win32GUI"
 #Remplacer "monprogramme.py" par le nom du script qui lance votre programme
-executables = [Executable("resalistes-0.1.py", base=base)]
+executables = [Executable("resalistes-0.1.py", base="Win32GUI")]
 #Renseignez ici la liste complète des packages utilisés par votre application
 packages = ["idna","csv","time","operator","os","datetime","reportlab","re","requests"]
 options = {

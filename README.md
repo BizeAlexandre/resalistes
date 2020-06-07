@@ -23,9 +23,9 @@ Les fichiers pdf produits ont le même aspect que dans la version "de base" disp
 - ligne 16 : dans l'url, remplacer 
 <br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse. Dans l'URL, laisser la fin : il s'agit de la requête qui va chercher les données.
 
-- ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr
+- ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr.
 
-<h5>adapter resalistes-0.1-solr.py</h5> Enregistrer le fichier resalistes-0.1-solr.py dans le dossier où Python est installé puis l'éditer, et :
+<h5>adapter resalistes-0.1-solr.py</h5> Enregistrer le fichier resalistes-0.1-solr.py dans le dossier où Python est installé puis l'éditer et :
 
 - lignes 29 à 33 : renseigner les paramètres de durée
 

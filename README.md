@@ -55,6 +55,9 @@ Pour automatiser complètement la production des listes, et si on dispose d'une 
 
 Où T:\deconfinement\drive\listes est le serveur commun où les fichiers seront lus et imprimés par les bibliothécaires. On peut programmer l'exécution quotidienne de ce batch avec le planificateur des tâches Windows. Configuré ainsi, les fichiers apparaissent tous les jours sans intervention humaine au bon endroit.
 
+On peut aussi en faire un exécutable pour une utilisation à la demande en un clic. Voir la méthode à la fin de la page :
+https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md
+
 Note importante du 06/06/2020 : cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans solr quand la réservation est "en rayon". Cela rend cette version pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
 
 La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script, mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

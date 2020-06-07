@@ -48,7 +48,7 @@ On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dos
 Cet exécutable et son dossier peuvent être copiés sur un serveur commun et mis à la disposition de tous pour déléguer l'édition de listes.
 
 <h4>Note sur la production du fichier csv source</h4>Pour automatiser l'ensemble du processus, il est possible de récupérer les données directement sur le serveur solr et de produire automatiquement le csv, à condition d'avoir un login/mdp. Actuellement, pour que cela fonctionne en production, il manque une donnée :la bibliothèque de mise à disposition dans Solr pour les réservations "en rayon" n'est pas indéxée dans solr. Le script permettant de faire cela est disponible ici, avec un code davantage commenté :<br>
-https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr<br>
+https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr
 
 L'indexation de la donnée manquante devrait intervenir dans les jours à venir, au moins à la BM de Reims.
 

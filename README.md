@@ -10,7 +10,7 @@ Les fichiers produits pdf ont le même aspect que dans la version "de base" disp
 <h2>mode d'emploi</h2>
 
 <h4>préparer Python</h4> Installer les librairies Python nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip. "Requests" et "re" sont rajoutés par rapport à la version "de base". En console, exécuter la commande :
-<br><code>pip install idna csv time operator os datetime reportlab requests re</code>
+<br><br><code>pip install idna csv time operator os datetime reportlab requests re</code>
 
 <h4>adapter le code</h4> Enregistrer le fichier solar_025.py dans le dossier où Python est installé, puis l'ouvrir avec un éditeur de texte et :
 - ligne 16 : dans l'url, remplacer 

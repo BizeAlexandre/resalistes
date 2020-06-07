@@ -15,7 +15,7 @@ Le code est mieux commenté ici que dans la version précédente. Pour le faire 
 
 2e étape : adapter le code. Avec un éditeur de texte, éditer solar_025.py puis :
 - ligne 16 : dans l'url, remplacer 
-<br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse. Dans l'URL, laisser la fin : il s'agit de la requête qui va chercher les données.
+<br><code> url='http://srvpw-medindx:8985 </code><br> par l'adresse et le port du serveur solr de votre installation Syracuse. Dans l'URL, laisser la fin : il s'agit de la requête qui va chercher les données : réservations crées depuis moins de 5 jours et à l'état "en rayon".
 
 - ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr
 

@@ -19,7 +19,8 @@ Les fichiers produits pdf ont le même aspect que dans la version "de base" disp
 
 - ligne 17 : remplacer xxxx et yyyy respectivement par les login et mot de passe pour l'accès au serveur solr
 
-<h5>adapter resalistes-0.1-solr.py</h5> Enregistrer le fichier dans le dossier où Python est installé puis l'éditer, et :
+<h5>adapter resalistes-0.1-solr.py</h5> Enregistrer le fichier resalistes-0.1-solr.py dans le dossier où Python est installé puis l'éditer, et :
+
 - ligne 16 : renseigner le nom du fichier csv source. Ici : solar_025.csv
 
 - lignes 29 à 33 : renseigner les paramètres de durée

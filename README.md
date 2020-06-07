@@ -52,7 +52,7 @@ Cet exécutable et son dossier peuvent être copiés sur un serveur commun et mi
 
 <h4>Note sur la production du fichier csv source</h4>Pour automatiser l'ensemble du processus et se passer de l'export manuel depuis Syracuse, il est possible de récupérer les données directement sur le serveur solr. Il faut disposer pour cela d'un compte (login/mdp) sur ce serveur. Le script permettant de faire cela est disponible ici, avec un code davantage commenté :<br>
 https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr
-
+<br><br>
 Actuellement, pour que cela fonctionne en production, il manque une donnée dans Solr : la bibliothèque de mise à disposition pour les réservations "en rayon" n'est pas indéxée. L'indexation de la donnée manquante devrait intervenir dans les jours à venir, au moins à la BM de Reims.
 
 <h4>avertissement</h4>

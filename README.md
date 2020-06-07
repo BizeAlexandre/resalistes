@@ -3,7 +3,7 @@ resalistes-0.1.py est un script écrit en Python 3.8 qui transforme un fichier c
 
 Les fichiers pdf en exemple sont produits avec le script resalistes-0.1.py et le fichier minimum d'exemple a.csv. (Données anonymisées). Voici comment l'adapter pour une autre bibliothèque.
 
-©Denis Paris, Olivier Hirsch - Bibliothèque municipale de Reims - 2020
+©2020 Denis Paris, Olivier Hirsch - Bibliothèque municipale de Reims
 
 <h2>mode d'emploi (Windows)</h2>
 

@@ -44,7 +44,7 @@ Les fichiers produits pdf ont le même aspect que dans la version "de base" disp
 Les fichiers pdf sont créés dans un sous dossier à la date du jour. Ex : C:\python38-32\2020-06-06, et sont nommés d'après les bibliothèques et le jour d'édition. Ex ici : falala-2020-06-06.pdf
 
 <h4>optionnel : automatiser complètement la production des listes</h4> Si on dispose d'une machine pouvant faire office de serveur Windows (une machine de bureau jamais éteinte et loggée sur une session disposant des accès serveur nécéssaires suffit), il est possible d'écrire le fichier batch suivant, nommé auto.bat, pour automatiser la production de listes :
-
+<br>
 <code>
 <div> cd c:\python38-32 </div>
 <div> set $madate=%date:~-4%-%date:~3,2%-%date:~0,2%  </div>
@@ -60,4 +60,5 @@ https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md
 
 <h4>Note importante du 06/06/2020</h4> Cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans solr quand la réservation est "en rayon". Cela rend cette version pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
 
+<h4>avertissement</h4>
 La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script, mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

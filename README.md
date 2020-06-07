@@ -1,11 +1,11 @@
 # resalistes
 resalistes-0.1.py est un script écrit en Python 3 qui transforme un fichier csv contenant une liste de réservations issues d'un SIGB en plusieurs fichiers pdf : un par bibliothèque, une page par réservateire. Ceux-ci permettent de préparer des commandes dans le cas d'une bibliothèque fonctionnant en mode "drive". Il est actuellement utilisé quotidiennement en production à la BM de Reims.
 
+Ce programme est destiné à convertir des exports csv de listes de documents réservés à la bibliothèque de Reims en provenance du SIGB Syracuse, pour produire des pdf contenant des listes de commandes. Il doit pouvoir être adapté à d'autres SIGB. Les fichiers pdf en exemple sont produits avec le script resalistes-0.1.py et le fichier minimum d'exemple a.csv. (Données anonymisées). Voici comment l'adapter dans une pour une autre bibliothèque.
+
 (c) Denis Paris - Bibliothèque municipale de Reims - 2020
 
-
-Ce programme est destiné à convertir des exports csv de listes de documents réservés à la bibliothèque de Reims en provenance du SIGB Syracuse, pour produire des pdf contenant des listes de commandes. Il doit pouvoir être adapté à d'autres SIGB. Les fichiers pdf en exemple sont produits avec le script resalistes-0.1.py et le fichier minimum d'exemple a.csv. (Données anonymisées)
-Pour le faire fonctionner dans une autre bibliothèque, il faut :
+<h2>mode d'emploi</h2>
 
 <h4>configurer Syracuse</h4>Construire un profil d'export dans Syracuse qui reproduise exactement les colonnes du fichier a.csv. Il faut le configurer comme dans le fichier profil.png, et chosir le type csv. Pour les variables soumises à référentiel, choisir "libellé" plutôt que "code".
 

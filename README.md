@@ -5,7 +5,7 @@ Les fichiers pdf en exemple sont produits avec le script resalistes-0.1.py et le
 
 (c) Denis Paris - Bibliothèque municipale de Reims - 2020
 
-<h2>mode d'emploi</h2>
+<h2>mode d'emploi (Windows)</h2>
 
 <h4>configurer Syracuse</h4>
 Construire un profil d'export dans Syracuse qui reproduise exactement les colonnes du fichier a.csv fourni sur cette page. Il faut le configurer comme dans le fichier profil.png (idem). Chosir le type csv et pour les variables soumises à référentiel, choisir "libellé" plutôt que "code".

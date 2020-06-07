@@ -65,9 +65,8 @@ nbchamp=16
 tableau=[]
 
 
-#with open(fichier,encoding='ISO-8859-1', newline='') as csvfile:
+#with open(fichier,encoding='UTF-8', newline='') as csvfile:
 
-# UTF-8
 with open(fichier,encoding='ISO-8859-1', newline='') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:

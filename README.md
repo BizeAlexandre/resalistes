@@ -12,6 +12,8 @@ Construire un profil d'export dans Syracuse qui reproduise exactement les colonn
 <br><br>
 Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère "|" comme séparateur, pas reconnu par défaut par Windows. Pour produire un .csv exploitable, il faut donc : ouvrir Excel,ouvrir le fichier sorti de Syracuse, sélectionner la première colonne, puis faire données>convertir>délimité, et mettre "|" comme séparateur. L'enregistrer sous a.csv (format csv, séparateur ;). A faire à chaque édition de liste ; une méthode alternative est indiquée plus bas.
 
+Désactiver aussi la notation scientifique dans Excel : sélectionner la colonne>format de cellule>personnalisé>standard
+
 <h4>installer et préparer Python</h4>
 
 - Télécharger Python 3.8 ici : https://www.python.org/downloads/

@@ -10,7 +10,7 @@ Ce programme est destiné à convertir des exports csv de listes de documents r�
 <h4>configurer Syracuse</h4>
 Construire un profil d'export dans Syracuse qui reproduise exactement les colonnes du fichier a.csv fourni sur cette page. Il faut le configurer comme dans le fichier profil.png (idem). Chosir le type csv et pour les variables soumises à référentiel, choisir "libellé" plutôt que "code".
 <br><br>
-Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère "|" comme séparateur, pas reconnu par défaut par Windows. Pour produire un .csv exploitable, il faut donc : Excel,ouvrir le fichier sorti de Syracuse, sélectionner la première colonne, puis faire données>convertir>délimité, et mettre "|" comme séparateur. L'enregistrer sous a.csv (format csv, séparateur ;). A faire à chaque édition de liste.
+Attention : Syracuse produit un fichier csv (en fait un txt) avec le caractère "|" comme séparateur, pas reconnu par défaut par Windows. Pour produire un .csv exploitable, il faut donc : ouvrir Excel,ouvrir le fichier sorti de Syracuse, sélectionner la première colonne, puis faire données>convertir>délimité, et mettre "|" comme séparateur. L'enregistrer sous a.csv (format csv, séparateur ;). A faire à chaque édition de liste.
 
 <h4>installer et préparer Python</h4>
 

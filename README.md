@@ -51,7 +51,6 @@ Cet exécutable et son dossier peuvent être copiés sur un serveur commun et mi
 
 Le script permettant de faire cela est disponible ici, avec un code davantage commenté :
 https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr 
-
 L'indexation de la donnée manquante devrait intervenir dans les jours à venir, au moins à la BM de Reims.
 
 <h4>avertissement</h4>

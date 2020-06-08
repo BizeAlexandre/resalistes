@@ -18,7 +18,7 @@ Désactiver aussi la notation scientifique dans Excel, pour les colonnes contena
 
 - Télécharger Python 3.8 ici : https://www.python.org/downloads/
 
-- L'installer dans un dossier accessible. Ex: C:\python38-32. Cela nécessite d'avoir les droits administrateur du poste.
+- L'installer dans un dossier accessible, par exemple à la racine de C. Ex: C:\python38-32. Cela nécessite d'avoir les droits administrateur du poste.
 
 - Installer les librairies nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console (lancer cmd.exe), exécuter la commande :
 <br><br><code>pip install idna csv time operator os datetime reportlab</code><br><br>

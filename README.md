@@ -59,10 +59,10 @@ https://python.jpvweb.com/python/mesrecettespython/doku.php?id=cx_freeze : En co
 
 On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dossier du dossier "build" (ex : c:\python38-32\build). Cet exécutable et son dossier peuvent être copiés sur un serveur commun et mis à la disposition de tous pour déléguer l'édition de listes.
 
-<h4>Note sur la production du fichier csv source</h4>Pour automatiser l'ensemble du processus et se passer de l'export manuel depuis Syracuse, il est possible de récupérer les données directement sur le serveur solr. Il faut disposer pour cela d'un compte (login/mdp) sur ce serveur. Le script permettant de faire cela est disponible ici, avec un code davantage commenté :<br>
+<h4>Note sur la production du fichier csv source</h4>Pour automatiser l'ensemble du processus et se passer de l'export manuel depuis Syracuse, il est possible de récupérer les données directement sur le serveur solr. Il faut disposer pour cela d'un ucompte (login/mdp) sur ce serveur. Le script permettant de faire cela est disponible ici, avec un code davantage commenté :<br>
 https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr
 <br><br>
-Actuellement, pour que cela fonctionne en production, il manque une donnée dans Solr : la bibliothèque de mise à disposition pour les réservations "en rayon" n'est pas indéxée. L'indexation de la donnée manquante devrait intervenir dans les jours à venir, au moins à la BM de Reims.
+Un patch de Syracuse disponible depuis le 08/06 permet de la mettre en production. Sans cela, il manque une donnée indexée (lieu de mise à disposition des réservations "en rayon".
 
 <h4>avertissement</h4>
 La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script. Mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

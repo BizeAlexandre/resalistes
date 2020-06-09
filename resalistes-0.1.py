@@ -65,15 +65,101 @@ nbchamp=16
 tableau=[]
 
 
-#with open(fichier,encoding='UTF-8', newline='') as csvfile:
+# les chaines de caratères sont à nettyer, notamment les compléments de titres 
+def nettoyage(txt):
+    #Nettoie le corps de la chaine de caracteres
+    txt=txt.replace(". -"," ")    
+    txt=txt.replace("\\\'","\'")
+    txt=txt.replace("\\\"","\"")
+    txt=txt.replace("\""," ")
+    txt=txt.replace(" ,",",")
+    txt=txt.replace("/"," ")
+    txt=txt.replace(": :",":")
+    txt=txt.replace(", :",",")
+    txt=txt.replace(", .",",")
+    txt=txt.replace("', '",",")
+    txt=txt.replace(".,",",")
+    txt=txt.replace(",.",",")
+    txt=txt.replace("    "," ")
+    txt=txt.replace("   "," ")
+    txt=txt.replace("  "," ")
 
+    i=1 #répète cette opération tant qu'il y a encore du nettyage à effectuer sur la chaine de caractère
+    while i==1:
+        i=0
+        #nettoie spécifiquement les premiers caratères de la chaine de caracteres
+        if len(txt)>0:
+            if txt[0]==",":
+                txt=txt[1:]
+                i=1
+        if len(txt)>0:
+            if txt[0]=="'":
+                txt=txt[1:]
+                i=1
+        if len(txt)>0:
+            if txt[0]==":":
+                txt=txt[1:]
+                i=1                
+        if len(txt)>0:
+            if txt[0]==" ":
+                txt=txt[1:]
+                i=1
+        if len(txt)>0:
+            if txt[0]=="-":
+                txt=txt[1:]
+                i=1
+        #nettoie spécifiquement les derniers caratères de la chaine de caracteres        
+        if len(txt)>0:
+            if txt[-1]==",":
+                txt=txt[0:-1]
+                i=1
+        if len(txt)>0:
+            if txt[-1]==":":
+                txt=txt[0:-1]
+                i=1
+        if len(txt)>0:
+            if txt[-1]==" ":
+                txt=txt[0:-1]
+                i=1
+        if len(txt)>0:
+            if txt[-1]=="-":
+                txt=txt[0:-1]
+                i=1
+
+    return txt
+
+#with open(fichier,encoding='ISO-8859-1', newline='') as csvfile:
+
+"""
+Exemple sur https://docs.python.org/3/library/csv.html
+
+>>> import csv
+>>> with open('eggs.csv', newline='') as csvfile:
+...     spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+...     for row in spamreader:
+...         print(', '.join(row))
+Spam, Spam, Spam, Spam, Spam, Baked Beans
+Spam, Lovely Spam, Wonderful Spam
+
+"""
+ 
+
+
+# UTF-8
+#with open(fichier,encoding='UTF-8', newline='') as csvfile:
 with open(fichier,encoding='ISO-8859-1', newline='') as csvfile:
-    reader = csv.reader(csvfile)
-    for row in reader:
-        texte=str(row)
-        #print("row = "+texte)
-        txt=""
+    #reader = csv.reader(csvfile)
+    spamreader = csv.reader(csvfile, delimiter=';', quotechar=' ')
+    for row in spamreader:
+        
         cell=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+
+        for i in range(16):
+            cell[i]=str(row[i])
+
+            
+        
+        """
         numchamp=0
         for car in texte:
             #print (car)
@@ -92,6 +178,9 @@ with open(fichier,encoding='ISO-8859-1', newline='') as csvfile:
             txt="vide13"
         
         cell[numchamp]=txt[0:-2]
+
+        """
+        
         tableau.append(cell)
         
 #print (tableau[10])
@@ -107,7 +196,7 @@ def envoipdf(cell):
     succursale=tab[0][0]
     dest=succ[succursale]
     print(succursale+"=>"+dest)
-    destination = canvas.Canvas(now+"/"+dest+"-"+now+".pdf") #OH
+    destination = canvas.Canvas(now+"/"+dest+"-"+now+".pdf") 
     lect=""
     nbligne=len(tab)
     print (nbligne)
@@ -196,7 +285,10 @@ def envoipdf(cell):
 
             
         txt=str(ligne[13])+" - "+str(ligne[15])#+" - "+str(ligne[15])
-        if txt!=" - vide":
+        txt=nettoyage(txt)
+
+        
+        if txt!="":
             y-=deltay    
             destination.setFont("Helvetica", 10)
             destination.drawString(x,y,txt)
@@ -306,19 +398,21 @@ for line in tabdoc:
         sucdoc=line[0]
 envoipdf(cell)  	 
 
-"""
-Copyright (C) <2020>  <Denis Paris> <Bibliothèque municipale de Reims>
+##OH : ouvrir le pdf de Falala du jour dans Adobe Reader 
+def imprfal():
+    contenu=open("impr_fal.bat", "w")
+    comm="\"C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe\" /P "
+    chemin="T:\deconfinement\drive\listes\\"+now+"\\falala"+"-"+now+".pdf"
+    comm+=chemin 
+    print(comm)
+    contenu.write(comm)
+    contenu.close()
+    os.system('impr_fal.bat')
+	
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+reponse=input('Voulez-vous imprimer pour Falala ?(y/n)')
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>
-    """
+if reponse=="y":
+    imprfal()
+else:
+    print('ok')

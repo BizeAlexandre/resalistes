@@ -75,4 +75,5 @@ Editer setup.py et remplacer resalistes-0.1.py par resalistes-0.1-solr.py, puis 
 <h4>note du 08/06/2020</h4>Un patch embarquant l'évolution nécéssaire est disponible depuis le 08/06.
 
 <h4>avertissement</h4>La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ces scripts. Mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.
-Précision de la société Archimed : aucun support ne sera donné là dessus, en particulier aucun accès au serveur solr de la part du service client.
+
+Précision de la société Archimed : aucun support ne sera donné là dessus, en particulier aucun accès au serveur solr de la part du service client.Ne pas les appeler pour cela.

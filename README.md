@@ -62,7 +62,7 @@ On récupère l'exécutable (un dossier, pas seulement un .exe) dans un sous-dos
 <h4>Note sur la production du fichier csv source</h4>Pour automatiser l'ensemble du processus et se passer de l'export manuel depuis Syracuse, il est possible de récupérer les données directement sur le serveur solr. Il faut disposer pour cela d'un ucompte (login/mdp) sur ce serveur. Le script permettant de faire cela est disponible ici, avec un code davantage commenté :<br>
 https://github.com/olivierhirsch/resalistes/tree/gh-pages-solr
 <br><br>
-Un patch de Syracuse disponible depuis le 08/06 permet de la mettre en production. Sans cela, il manque une donnée indexée (lieu de mise à disposition des réservations "en rayon").
+Un patch de Syracuse disponible depuis le 08/06 permet de la mettre en production. Sans cela, il manque une donnée indexée (lieu de mise à disposition des réservations "en rayon"). Précision de la société Archimed : aucun support ne sera donné là dessus, en particulier aucun accès au serveur solr de la part du service client. Ne pas les appeler pour cela.
 
 <h4>avertissement</h4>
 La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ce script. Mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.

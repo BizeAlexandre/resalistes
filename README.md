@@ -20,8 +20,8 @@ Désactiver aussi la notation scientifique dans Excel, pour les colonnes contena
 
 - L'installer dans un dossier accessible, par exemple à la racine de C. Ex: C:\python38-32. Cela nécessite d'avoir les droits administrateur du poste.
 
-- Installer les librairies nécessaires : "idna","csv","time","operator","os","datetime","reportlab", avec pip. En console (lancer cmd.exe), exécuter la commande :
-<br><br><code>pip install idna csv time operator os datetime reportlab</code><br><br>
+- Installer les librairies nécessaires : "idna","csv","time","operator","os","datetime","reportlab", "requests", "re" avec pip. En console (lancer cmd.exe), exécuter la commande :
+<br><br><code>pip install idna csv time operator os datetime reportlab requests re</code><br><br>
 
 <h4>adapter le code</h4>Enregistrer le fichier resalistes-0.1.py dans le dossier où Python est installé, puis l'ouvrir avec un éditeur de texte et :
 

@@ -70,10 +70,10 @@ https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md#optionnel--c
 
 Editer setup.py et remplacer resalistes-0.1.py par resalistes-0.1-solr.py, puis par solar_025.py (deux exécutables ; il existe des méthodes pour n'en faire qu'un seul).
 
-<h4>note importante du 06/06/2020</h4>Cette version solr ne peut pas encore être mise en production. En effet, la donnée de bibliothèque de mise à disposition n'est pas indexée dans solr quand la réservation est "en rayon". Cela rend cette version pour le moment inutilisable en pratique. Mais l'éditeur de Syracuse a promis une correction très rapide de ce point, au moins à la BM de Reims.
+<h4>automatiser l'impression pour une bibliothèque</h4> Bien entendu, une fois la production des fichiers pdf entièrement automatisée, il est tentant d'envisager celle de l'impression. Le script print.bat (fourni) fait cela : il nécessite la préseance d'Adobe Reader sur le "serveur". Il envoie l'impression du fichier du jour de la médiathèque Falala sur l'imprimante par défaut, du mardi au samedi. Comme il s'agit d'une imprimante réseau, la tâche s'exécute au moment où elle est mise en marche si elle est éteinte.
 
-<h4>note du 08/06/2020</h4>Un patch embarquant l'évolution nécéssaire est disponible depuis le 08/06.
+<h4>note du 12/06/2020</h4> Après le passage du patch de Syracuse le 11/06 indexant la donnée manquante, cette version est mise en production à la BM de Reims.
 
 <h4>avertissement</h4>La bibliothèque municipale de Reims n'assurera pas de support sur l'utilisation de ces scripts. Mais nous serions heureux d'avoir des retours de ceux à qui il aura pu être utile.
 
-Précision de la société Archimed : aucun support ne sera donné là dessus, en particulier aucun accès au serveur solr de la part du service client.Ne pas les appeler pour cela.
+Précision de la société Archimed : aucun support ne sera donné là dessus, en particulier aucun accès au serveur solr de la part du service client. Ne pas les appeler pour cela.

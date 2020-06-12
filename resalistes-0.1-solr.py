@@ -552,11 +552,11 @@ def imprfal():
     contenu.close()
     os.system('impr_fal.bat')
 	
-
 reponse=input('Voulez-vous imprimer pour Falala ?(y/n)')
-
 if reponse=="y":
     imprfal()
 else:
     print('ok')
 """
+
+

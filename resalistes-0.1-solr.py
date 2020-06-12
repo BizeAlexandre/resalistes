@@ -430,14 +430,19 @@ def envoipdf(cell):
 
 # ------------Ligne suivante -----------------        
 
-        y -= int(1.5*deltay)
-        # Si la bibliothèque de sdestination est différente de la bibliothèque d'appartenance du document, on indique la destination du document
-        if ligne[Cdest]!=succursale:    #destination ====================== A PRECISER, CETTE VARIABLE N'EST PAS ENCORE DEFINI PAR SYRACUSE ================
-            
-            txt="=> "+ligne[Cdest]      #destination
-            destination.setFont("Helvetica", 15)
-            destination.drawString(x,y,txt)
+        y -= int(1.3*deltay)
+        
+        # date d'expiration (depend de si il y a déplacement du document vers bibliothèque de destination)
+        if ligne[Cdest]!=succursale:
             transit=1
+            date=dateexptransit
+        else:
+            date=dateexp
+        txt="Expire le : "+date
+        destination.setFont("Helvetica", 12)
+        destination.drawString(x,y,txt)
+
+        
 
          #cb exemplaire en code barre128 suivi de la valeur de ce CB
         txt=ligne[Ccbex]
@@ -455,27 +460,31 @@ def envoipdf(cell):
             destination.drawString(xmid+200,y,txt)  
 
 
+# ------------Ligne suivante -----------------
+
+
+
 
 
         y-=deltay
 
-        # date d'expiration (depend de si il y a déplacement du document vers bibliothèque de destination)
-        if transit==1:
-            date=dateexptransit
-        else:
-            date=dateexp
-        txt="Expire le : "+date
-        destination.setFont("Helvetica", 12)
-        destination.drawString(x,y,txt)
+
+
+        # Si la bibliothèque de sdestination est différente de la bibliothèque d'appartenance du document, on indique la destination du document
+        if ligne[Cdest]!=succursale:    #destination ====================== A PRECISER, CETTE VARIABLE N'EST PAS ENCORE DEFINI PAR SYRACUSE ================
+            
+            bibdestination="=> "+ligne[Cdest]      #destination
+            destination.setFont("Helvetica", 15)
+            destination.drawString(x,y,bibdestination)
+            transit=1
+
+            
+
         
      
 
 
 
-
-
-
-# ------------Ligne suivante -----------------
 
 
 

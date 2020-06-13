@@ -66,7 +66,7 @@ succ={"Bibliothèque Carnegie":"carnegie",
     "Conservatoire (CRR)":"conservatoire"}
 
 # lecture du fichier
-nbchamp=17 #nombre de champs dans le fichier
+nbchamp=18 #nombre de champs dans le fichier
 tableau=[]
 id=0
 
@@ -94,8 +94,10 @@ Ccblect=11  #Codebare du compte lecteur
 Ccotesup=12     #Cote supplémentaire ? pas exploité ici ? voir la requete qui genere le CSV
 CDISP=13    #?
 CDRES=14    #?
-Ctitreseul=15   #variable définie à partir de CTitre, pour isoler le titre seul de l'ensemble des informations contenues dans Ctitre
-Ctitresup=16    #variable définie à partir de CTitre, pour le complément de titre de l'ensemble des informations contenues dans Ctitre
+Cauteur=15 # Auteur 
+Ctitreseul=16   #variable définie à partir de CTitre, pour isoler le titre seul de l'ensemble des informations contenues dans Ctitre
+Ctitresup=17    #variable définie à partir de CTitre, pour le complément de titre de l'ensemble des informations contenues dans Ctitre
+
 # ================= FIN DE définition numéros de champs de colonne ========================
 
 
@@ -181,8 +183,8 @@ with open(fichier,encoding='utf8', newline='') as csvfile:
 
     # remplissage du tableau cell
     for row in spamreader:
-        cell=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
-        for i in range(15):
+        cell=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+        for i in range(16):
             cell[i]=str(row[i])
 
 
@@ -200,6 +202,13 @@ with open(fichier,encoding='utf8', newline='') as csvfile:
         # remplace "Disque Compact" en "CD"
         if cell[Csupport]=="Disque compact":
             cell[Csupport]="CD"
+
+        # On extrait le nom de l'auteur (syntaxe d'origine : "Steel,Danielle,Fombois,Alice" =>on désire: "Steel")
+        auteur=cell[Cauteur]
+        if auteur.find(",")!=-1:
+            auteur=auteur[0:auteur.find(",")]
+        cell[Cauteur]=nettoyage(auteur)
+            
 
         # nettoie la date au moment de la réservation par l'usager
         # on passe de "2020-05-28T16:03:07Z" à "2020-05-28 16:03"
@@ -413,7 +422,15 @@ def envoipdf(cell):
 
 
         #cote - type doc - secteur
-        txt2=ligne[Ccote]+" - "+ligne[Csupport]+" - "+ligne[Csecteur]
+        cote=ligne[Ccote]
+        auteur=ligne[Cauteur]
+        if auteur!="":        
+            if (cote[0:2]=="R ")|(cote[0:3]=="FY ")|(cote[0:3]=="SF ")|(cote[0:4]=="POL ")|(cote[0:4]=="FAN "):
+                cote+=" ("+auteur+")"
+            
+
+            
+        txt2=cote+" - "+ligne[Csupport]+" - "+ligne[Csecteur]
 
         txt2=nettoyage(txt2)        
 

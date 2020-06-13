@@ -305,7 +305,7 @@ def envoipdf(cell):
                 y=hautdepage    # on positionne le curseur courant "y" en haut de page
                 
             # Sur le haut de page on indique le nom de la bibliothèque d'appartenance du document, suivi du code barre du compte lecteur
-            txt=dest+" "+ligne[Ccblect]
+            txt=dest+" "+ligne[Ccblect]+" "+ligne[Clect]
             destination.setFont("Helvetica", 10)    # police (attention : offre limitée de polices) + taille de police        
             destination.drawString(x,y,txt)         # coordonnées x,y du texte "txt" à écrire
             
@@ -354,8 +354,9 @@ def envoipdf(cell):
             destination.pageNumer=2
             destination.showPage()
             y=hautdepage        # On repositionne le curseur courant en haut de page
+            partiebasse=basdepage # on reposition le curseur de bas de page (Bibliothèque Carnegie)
             
-            txt=dest+" "+ligne[Ccblect]     # on écrit en heut de page la bibliothèque, suivi du cb du lecteur
+            txt=dest+" "+ligne[Ccblect]+" "+ligne[Clect]     # on écrit en heut de page la bibliothèque, suivi du cb du lecteur
             destination.setFont("Helvetica", 10)            
             destination.drawString(x,y,txt)
 
@@ -365,7 +366,7 @@ def envoipdf(cell):
             y -= int(1.5*deltay)    # on saute une ligne
             
             #lect=ligne[Clect]   #lecteur
-            destination.setFont("Helvetica", 12)
+            destination.setFont("Helvetica", 18)
             destination.drawString(x,y,lecteur)  #  ATTENTION la valeur "lecteur" a été calculée lors de la boucle précédente et n'a a priori pas été modifiée
 
             y-=deltay
@@ -421,7 +422,7 @@ def envoipdf(cell):
         else:
             txt3=txt+" > "+txt2
 
-        destination.setFont("Helvetica", 10)
+        destination.setFont("Helvetica", 11)
         destination.drawString(x,y,txt3)
         # ------------- Fin de : ajoute une ligne si (Ccotesup + Ctitresup) existe
 

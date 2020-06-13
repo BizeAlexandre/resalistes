@@ -425,7 +425,7 @@ def envoipdf(cell):
         cote=ligne[Ccote]
         auteur=ligne[Cauteur]
         if auteur!="":        
-            if (cote[0:2]=="R ")|(cote[0:3]=="FY ")|(cote[0:3]=="SF ")|(cote[0:4]=="POL ")|(cote[0:4]=="FAN "):
+            if (cote[0:2]=="R ")|(cote[0:3]=="FY ")|(cote[0:3]=="SF ")|(cote[0:4]=="POL ")|(cote[0:4]=="FAN ")|(cote[0:4]=="ANT "):
                 cote+=" ("+auteur+")"
             
 

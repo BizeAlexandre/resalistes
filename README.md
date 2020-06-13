@@ -70,7 +70,7 @@ https://github.com/olivierhirsch/resalistes/blob/gh-pages/README.md#optionnel--c
 
 Editer setup.py et remplacer resalistes-0.1.py par resalistes-0.1-solr.py, puis par solar_025.py (deux exécutables ; il existe des méthodes pour n'en faire qu'un seul).
 
-<h4>automatiser l'impression pour une bibliothèque</h4> Bien entendu, une fois la production des fichiers pdf entièrement automatisée, il est tentant d'envisager celle de l'impression. Le script print.bat (fourni) fait cela : il nécessite la préseance d'Adobe Reader sur le "serveur". Il envoie l'impression du fichier du jour de la médiathèque Falala sur l'imprimante par défaut, du mardi au samedi. Comme il s'agit d'une imprimante réseau, la tâche s'exécute au moment où elle est mise en marche si elle est éteinte. Il faut le programmer pour une exécution tous les jours, la détermination du jour de la semaine est faite dans le code.
+<h4>automatiser l'impression pour une bibliothèque</h4> Bien entendu, une fois la production des fichiers pdf entièrement automatisée, il est tentant d'envisager celle de l'impression. Le script print.bat (fourni) fait cela : il nécessite la préseance d'Adobe Reader sur le "serveur". Il envoie l'impression du fichier du jour de la médiathèque Falala sur l'imprimante par défaut, du mardi au samedi. Il faut le programmer pour une exécution tous les jours, la détermination du jour de la semaine est faite dans le code.
 
 <h4>note du 12/06/2020</h4> Après le passage du patch de Syracuse le 11/06 indexant la donnée manquante, cette version est mise en production à la BM de Reims.
 
